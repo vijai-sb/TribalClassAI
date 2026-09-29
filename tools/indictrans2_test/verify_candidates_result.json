@@ -1,0 +1,487 @@
+[
+ {
+  "hindi": "अपना नाम लिखो।",
+  "output": "ᱟᱢᱟᱜ ᱧᱩᱛᱩᱢ ᱚᱞ ᱢᱮ ᱾",
+  "tgt_ids": [
+   79072,
+   81465,
+   85079,
+   67823,
+   31428,
+   2
+  ],
+  "no_punct_output": "ᱟᱢᱟᱜ ᱧᱩᱛᱩᱢ ᱚᱞ ᱢᱮ ᱾",
+  "beam4_output": "ᱟᱢᱟᱜ ᱧᱩᱛᱩᱢ ᱚᱞ ᱢᱮ ᱾",
+  "consistent": true,
+  "ol_chiki_only": true,
+  "back_translation": "अपना नाम लिखें।",
+  "documented": [
+   "9/10 identical",
+   "ᱟᱢᱟᱜ ᱧᱩᱛᱩᱢ ᱚᱞ ᱢᱮ",
+   "back-translations of that output: [('अपना नाम दर्ज करें', 5), ('अपना नाम', 3), ('अपना नाम लिखें', 1)]"
+  ],
+  "documented_agrees": true
+ },
+ {
+  "hindi": "किताब खोलो।",
+  "output": "ᱯᱚᱛᱚᱵ ᱫᱚ ᱮᱦᱚᱵ ᱢᱮ ᱾",
+  "tgt_ids": [
+   103129,
+   48377,
+   93030,
+   67823,
+   31428,
+   2
+  ],
+  "no_punct_output": "ᱯᱚᱛᱚᱵ ᱫᱚ ᱮᱦᱚᱵ ᱢᱮ ᱾",
+  "beam4_output": "ᱯᱚᱛᱚᱵ ᱫᱚ ᱮᱦᱚᱵ ᱢᱮ ᱾",
+  "consistent": true,
+  "ol_chiki_only": true,
+  "back_translation": "किताब शुरू करें।",
+  "documented": null,
+  "documented_agrees": null
+ },
+ {
+  "hindi": "किताब बंद करो।",
+  "output": "ᱯᱚᱛᱚᱵ ᱫᱚ ᱵᱚᱱᱚᱫᱚᱞ ᱢᱮ ᱾",
+  "tgt_ids": [
+   103129,
+   48377,
+   90779,
+   89483,
+   83775,
+   67823,
+   31428,
+   2
+  ],
+  "no_punct_output": "ᱯᱚᱛᱚᱵ ᱫᱚ ᱵᱚᱱᱚᱫᱚᱞ ᱢᱮ ᱾",
+  "beam4_output": "ᱯᱚᱛᱚᱵ ᱫᱚ ᱵᱚᱱᱚᱫᱚᱞ ᱢᱮ ᱾",
+  "consistent": true,
+  "ol_chiki_only": true,
+  "back_translation": "किताब को बंद कर दें।",
+  "documented": null,
+  "documented_agrees": null
+ },
+ {
+  "hindi": "इधर आओ।",
+  "output": "ᱱᱚᱶᱟ ᱨᱮ ᱦᱮᱡ ᱢᱮ ᱾",
+  "tgt_ids": [
+   65200,
+   41991,
+   90364,
+   67823,
+   31428,
+   2
+  ],
+  "no_punct_output": "ᱱᱚᱶᱟ ᱨᱮ ᱦᱮᱡ ᱢᱮ ᱾",
+  "beam4_output": "ᱱᱚᱶᱟ ᱨᱮ ᱦᱮᱡ ᱢᱮ ᱾",
+  "consistent": true,
+  "ol_chiki_only": true,
+  "back_translation": "यहाँ आओ।",
+  "documented": null,
+  "documented_agrees": null
+ },
+ {
+  "hindi": "बैठ जाओ।",
+  "output": "ᱥᱮᱱ ᱢᱮ ᱾",
+  "tgt_ids": [
+   90538,
+   67823,
+   31428,
+   2
+  ],
+  "no_punct_output": "ᱥᱮᱱ ᱢᱮ ᱾",
+  "beam4_output": "ᱵᱮᱶᱦᱟᱨ ᱢᱮ ᱾",
+  "consistent": false,
+  "ol_chiki_only": true,
+  "back_translation": "जाओ।",
+  "documented": null,
+  "documented_agrees": null
+ },
+ {
+  "hindi": "खड़े हो जाओ।",
+  "output": "ᱛᱷᱟᱯᱚᱱ ᱢᱮ ᱾",
+  "tgt_ids": [
+   89729,
+   67823,
+   31428,
+   2
+  ],
+  "no_punct_output": "ᱛᱷᱟᱯᱚᱱ ᱢᱮ ᱾",
+  "beam4_output": "ᱛᱷᱟᱯᱚᱱ ᱢᱮ ᱾",
+  "consistent": true,
+  "ol_chiki_only": true,
+  "back_translation": "स्थापित करें।",
+  "documented": null,
+  "documented_agrees": null
+ },
+ {
+  "hindi": "ध्यान से सुनो।",
+  "output": "ᱢᱚᱱᱮ ᱠᱟᱛᱮ ᱵᱟᱰᱟᱭ ᱢᱮ ᱾",
+  "tgt_ids": [
+   92861,
+   70985,
+   90832,
+   67823,
+   31428,
+   2
+  ],
+  "no_punct_output": "ᱩᱭᱦᱟᱹᱨ ᱥᱟᱞᱟᱜ ᱵᱟᱰᱟᱭ ᱢᱮ ᱾",
+  "beam4_output": "ᱟᱹᱰᱤ ᱱᱟᱯᱟᱭ ᱛᱮ ᱵᱟᱰᱟᱭ ᱢᱮ ᱾",
+  "consistent": false,
+  "ol_chiki_only": true,
+  "back_translation": "ध्यान से सुनें।",
+  "documented": [
+   "4/10 identical",
+   "ᱢᱚᱱᱮ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ",
+   "back-translations of that output: [('ऐसा लगता है', 2), ('ऐसा लगता है ', 2)]"
+  ],
+  "documented_agrees": false
+ },
+ {
+  "hindi": "पानी पियो।",
+  "output": "ᱫᱟᱜᱧᱟᱢ ᱢᱮ ᱾",
+  "tgt_ids": [
+   88706,
+   79283,
+   81098,
+   67823,
+   31428,
+   2
+  ],
+  "no_punct_output": "ᱫᱟᱜᱧᱟᱢ ᱢᱮ ᱾",
+  "beam4_output": "ᱫᱟᱜᱧᱟᱢ ᱢᱮ ᱾",
+  "consistent": true,
+  "ol_chiki_only": true,
+  "back_translation": "पानी पीना।",
+  "documented": null,
+  "documented_agrees": null
+ },
+ {
+  "hindi": "मेरे साथ बोलो।",
+  "output": "ᱤᱧ ᱥᱟᱶ ᱠᱟᱛᱷᱟ ᱞᱟᱹᱭ ᱢᱮ ᱾",
+  "tgt_ids": [
+   76527,
+   80035,
+   89703,
+   85080,
+   67823,
+   31428,
+   2
+  ],
+  "no_punct_output": "ᱤᱧ ᱥᱟᱶ ᱠᱟᱛᱷᱟ ᱞᱟᱹᱭ ᱢᱮ ᱾",
+  "beam4_output": "ᱤᱧ ᱥᱟᱶ ᱠᱟᱛᱷᱟ ᱞᱟᱹᱭ ᱢᱮ ᱾",
+  "consistent": true,
+  "ol_chiki_only": true,
+  "back_translation": "मुझसे बात करें।",
+  "documented": null,
+  "documented_agrees": null
+ },
+ {
+  "hindi": "सब बच्चे बैठो।",
+  "output": "ᱥᱟᱱᱟᱢ ᱜᱤᱫᱽᱨᱟᱹ ᱠᱚ ᱥᱮᱱ ᱢᱮ ᱾",
+  "tgt_ids": [
+   84674,
+   89125,
+   51412,
+   90538,
+   67823,
+   31428,
+   2
+  ],
+  "no_punct_output": "ᱥᱟᱱᱟᱢ ᱜᱤᱫᱽᱨᱟᱹ ᱠᱚ ᱥᱮᱱ ᱢᱮ ᱾",
+  "beam4_output": "ᱥᱟᱱᱟᱢ ᱜᱤᱫᱽᱨᱟᱹ ᱠᱚ ᱥᱮᱱ ᱢᱮ ᱾",
+  "consistent": true,
+  "ol_chiki_only": true,
+  "back_translation": "सभी बच्चों को जाने दें।",
+  "documented": null,
+  "documented_agrees": null
+ },
+ {
+  "hindi": "चुप रहो।",
+  "output": "ᱥᱩᱛᱚ ᱢᱮ ᱾",
+  "tgt_ids": [
+   107269,
+   81185,
+   67823,
+   31428,
+   2
+  ],
+  "no_punct_output": "ᱥᱩᱛᱚ ᱢᱮ ᱾",
+  "beam4_output": "ᱥᱳᱯᱨᱳᱫᱽ ᱢᱮ ᱾",
+  "consistent": false,
+  "ol_chiki_only": true,
+  "back_translation": "शांत हो जाओ।",
+  "documented": null,
+  "documented_agrees": null
+ },
+ {
+  "hindi": "हाथ उठाओ।",
+  "output": "ᱛᱤ ᱪᱮᱛᱟᱱ ᱨᱮ ᱫᱚᱦᱚ ᱢᱮ ᱾",
+  "tgt_ids": [
+   91907,
+   82054,
+   41991,
+   86927,
+   67823,
+   31428,
+   2
+  ],
+  "no_punct_output": "ᱛᱤ ᱪᱮᱛᱟᱱ ᱨᱮ ᱫᱚᱦᱚ ᱢᱮ ᱾",
+  "beam4_output": "ᱛᱤ ᱪᱮᱛᱟᱱ ᱨᱮ ᱫᱚᱦᱚ ᱢᱮ ᱾",
+  "consistent": true,
+  "ol_chiki_only": true,
+  "back_translation": "हाथ ऊपर रखें।",
+  "documented": null,
+  "documented_agrees": null
+ },
+ {
+  "hindi": "दरवाज़ा बंद करो।",
+  "output": "ᱫᱟᱹᱨᱟᱹ ᱫᱚ ᱵᱚᱱᱚᱫᱚᱞ ᱢᱮ ᱾",
+  "tgt_ids": [
+   93770,
+   89063,
+   76727,
+   48377,
+   90779,
+   89483,
+   83775,
+   67823,
+   31428,
+   2
+  ],
+  "no_punct_output": "ᱫᱟᱹᱨᱟᱹ ᱫᱚ ᱵᱚᱱᱚᱫᱚᱞ ᱢᱮ ᱾",
+  "beam4_output": "ᱫᱟᱹᱨᱟᱹ ᱫᱚ ᱵᱚᱱᱚᱫᱚᱞ ᱢᱮ ᱾",
+  "consistent": true,
+  "ol_chiki_only": true,
+  "back_translation": "दरवाजा बंद कर दें।",
+  "documented": null,
+  "documented_agrees": null
+ },
+ {
+  "hindi": "बोर्ड देखो।",
+  "output": "ᱵᱳᱨᱰ ᱫᱚ ᱧᱮᱞ ᱢᱮ ᱾",
+  "tgt_ids": [
+   105485,
+   75940,
+   48377,
+   84271,
+   67823,
+   31428,
+   2
+  ],
+  "no_punct_output": "ᱵᱳᱨᱰ ᱫᱚ ᱧᱮᱞ ᱢᱮ ᱾",
+  "beam4_output": "ᱵᱳᱨᱰ ᱫᱚ ᱧᱮᱞ ᱢᱮ ᱾",
+  "consistent": true,
+  "ol_chiki_only": true,
+  "back_translation": "बोर्ड को देखें।",
+  "documented": null,
+  "documented_agrees": null
+ },
+ {
+  "hindi": "यह किताब है।",
+  "output": "ᱱᱚᱶᱟ ᱫᱚ ᱢᱤᱫᱴᱟᱝ ᱯᱚᱛᱚᱵ ᱾",
+  "tgt_ids": [
+   65200,
+   48377,
+   64583,
+   103129,
+   31428,
+   2
+  ],
+  "no_punct_output": "ᱱᱚᱶᱟ ᱫᱚ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ ᱯᱚᱛᱚᱵ ᱾",
+  "beam4_output": "ᱱᱚᱶᱟ ᱫᱚ ᱢᱤᱫᱴᱟᱝ ᱯᱚᱛᱚᱵ ᱾",
+  "consistent": false,
+  "ol_chiki_only": true,
+  "back_translation": "यह एक किताब है।",
+  "documented": null,
+  "documented_agrees": null
+ },
+ {
+  "hindi": "यह कलम है।",
+  "output": "ᱱᱚᱶᱟ ᱫᱚ ᱢᱤᱫᱴᱟᱝ ᱯᱮᱱ ᱾",
+  "tgt_ids": [
+   65200,
+   48377,
+   64583,
+   100332,
+   31428,
+   2
+  ],
+  "no_punct_output": "ᱱᱚᱶᱟ ᱫᱚ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ ᱢᱤᱫᱴᱟᱝ ᱯᱮᱱ ᱾",
+  "beam4_output": "ᱱᱚᱶᱟ ᱫᱚ ᱢᱤᱫᱴᱟᱝ ᱯᱮᱱ ᱾",
+  "consistent": false,
+  "ol_chiki_only": true,
+  "back_translation": "यह एक पैन है।",
+  "documented": null,
+  "documented_agrees": null
+ },
+ {
+  "hindi": "यह पानी है।",
+  "output": "ᱱᱚᱶᱟ ᱫᱚ ᱫᱟᱜ ᱾",
+  "tgt_ids": [
+   65200,
+   48377,
+   88706,
+   31428,
+   2
+  ],
+  "no_punct_output": "ᱱᱚᱶᱟ ᱫᱚ ᱫᱟᱜ ᱾",
+  "beam4_output": "ᱱᱚᱶᱟ ᱫᱚ ᱫᱟᱜ ᱾",
+  "consistent": true,
+  "ol_chiki_only": true,
+  "back_translation": "यह पानी है।",
+  "documented": null,
+  "documented_agrees": null
+ },
+ {
+  "hindi": "नमस्ते।",
+  "output": "ᱦᱚᱞᱮᱹᱣ, ᱦᱚᱞᱮᱹᱣ ᱾",
+  "tgt_ids": [
+   98114,
+   89387,
+   78144,
+   82868,
+   5,
+   98114,
+   89387,
+   78144,
+   82868,
+   31428,
+   2
+  ],
+  "no_punct_output": "ᱦᱚᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮ",
+  "beam4_output": "ᱟᱠᱷᱟᱲᱟ, ᱟᱠᱷᱟᱲᱟ ᱾",
+  "consistent": false,
+  "ol_chiki_only": false,
+  "back_translation": "हैलो, हैलो।",
+  "documented": null,
+  "documented_agrees": null
+ },
+ {
+  "hindi": "सुप्रभात।",
+  "output": "ᱟᱹᱰᱤ ᱱᱟᱯᱟᱭ ꯑꯌꯨꯛ ᱾",
+  "tgt_ids": [
+   78645,
+   93706,
+   91424,
+   31428,
+   2
+  ],
+  "no_punct_output": "ᱟᱹᱰᱤ ᱱᱟᱯᱟᱭ صبح ᱾",
+  "beam4_output": "ᱟᱹᱰᱤ ᱱᱟᱯᱟᱭ ꯑꯌꯨꯛ ᱾",
+  "consistent": false,
+  "ol_chiki_only": false,
+  "back_translation": "बहुत अच्छी सुबह।",
+  "documented": null,
+  "documented_agrees": null
+ },
+ {
+  "hindi": "धन्यवाद।",
+  "output": "ᱥᱟᱨᱦᱟᱰ ᱮᱢ ᱢᱮ ᱾",
+  "tgt_ids": [
+   91310,
+   87980,
+   75940,
+   75697,
+   67823,
+   31428,
+   2
+  ],
+  "no_punct_output": "ᱥᱟᱨᱦᱟᱶ ᱮᱢ ᱢᱮ ᱾",
+  "beam4_output": "ᱥᱟᱨᱦᱟᱶ ᱮᱢ ᱢᱮ ᱾",
+  "consistent": false,
+  "ol_chiki_only": true,
+  "back_translation": "धन्यवाद।",
+  "documented": null,
+  "documented_agrees": null
+ },
+ {
+  "hindi": "बहुत अच्छा।",
+  "output": "ᱟᱹᱰᱤ ᱱᱟᱯᱟᱭ ᱾",
+  "tgt_ids": [
+   78645,
+   93706,
+   31428,
+   2
+  ],
+  "no_punct_output": "ᱟᱹᱰᱤ ᱱᱟᱯᱟᱭ ᱾",
+  "beam4_output": "ᱟᱹᱰᱤ ᱱᱟᱯᱟᱭ ᱾",
+  "consistent": true,
+  "ol_chiki_only": true,
+  "back_translation": "बहुत अच्छा है।",
+  "documented": null,
+  "documented_agrees": null
+ },
+ {
+  "hindi": "शाबाश।",
+  "output": "ᱥᱟᱵᱟᱥ ᱾",
+  "tgt_ids": [
+   87194,
+   102596,
+   31428,
+   2
+  ],
+  "no_punct_output": "ᱥᱟᱵᱟᱥ ᱾",
+  "beam4_output": "ᱥᱟᱵᱟᱥ ᱾",
+  "consistent": true,
+  "ol_chiki_only": true,
+  "back_translation": "सुभाष।",
+  "documented": null,
+  "documented_agrees": null
+ },
+ {
+  "hindi": "तुम्हारा नाम क्या है?",
+  "output": "ᱟᱢᱟᱜ ᱧᱩᱛᱩᱢ ᱪᱮᱫ?",
+  "tgt_ids": [
+   79072,
+   81465,
+   88077,
+   11,
+   2
+  ],
+  "no_punct_output": "ᱟᱢᱟᱜ ᱧᱩᱛᱩᱢ ᱪᱮᱫ?",
+  "beam4_output": "ᱟᱢᱟᱜ ᱧᱩᱛᱩᱢ ᱪᱮᱫ?",
+  "consistent": true,
+  "ol_chiki_only": false,
+  "back_translation": "आपका नाम क्या है?",
+  "documented": null,
+  "documented_agrees": null
+ },
+ {
+  "hindi": "तुम कैसे हो?",
+  "output": "ᱟᱢ ᱪᱮᱫ ᱞᱮᱠᱟ?",
+  "tgt_ids": [
+   73054,
+   88077,
+   89317,
+   11,
+   2
+  ],
+  "no_punct_output": "ᱟᱢ ᱪᱮᱫ ᱞᱮᱠᱟ ᱾",
+  "beam4_output": "ᱟᱢ ᱪᱮᱫ ᱞᱮᱠᱟ?",
+  "consistent": false,
+  "ol_chiki_only": false,
+  "back_translation": "आप कैसे हैं?",
+  "documented": null,
+  "documented_agrees": null
+ },
+ {
+  "hindi": "यह क्या है?",
+  "output": "ᱱᱚᱶᱟ ᱫᱚ ᱪᱮᱫ?",
+  "tgt_ids": [
+   65200,
+   48377,
+   88077,
+   11,
+   2
+  ],
+  "no_punct_output": "ᱱᱚᱶᱟ ᱫᱚ ᱪᱮᱫ?",
+  "beam4_output": "ᱱᱚᱶᱟ ᱫᱚ ᱪᱮᱫ?",
+  "consistent": true,
+  "ol_chiki_only": false,
+  "back_translation": "यह क्या है?",
+  "documented": null,
+  "documented_agrees": null
+ }
+]

@@ -1,0 +1,20 @@
+SHIPPED  santali_book.wav | heard 'ᱯᱚᱛᱚᱵ' | exact True | CER 0.00
+candidate santali_book_10.wav | heard 'ᱯᱚᱛᱚᱵ' | exact True | CER 0.00
+candidate santali_book_12.wav | heard 'ᱯᱚᱛᱚᱵ' | exact True | CER 0.00
+candidate santali_book_13.wav | heard 'ᱯᱚᱛᱚᱵ' | exact True | CER 0.00
+candidate santali_book_14.wav | heard 'ᱯᱚᱛᱚᱵ' | exact True | CER 0.00
+SHIPPED  santali_one.wav | heard 'ᱢᱤᱫᱴᱟ' | exact False | CER 0.17
+candidate santali_one_10.wav | heard 'ᱜᱮᱴᱟ' | exact False | CER 0.67
+candidate santali_one_12.wav | heard 'ᱜᱮᱴᱟ' | exact False | CER 0.67
+candidate santali_one_13.wav | heard 'ᱜᱮᱴᱟ' | exact False | CER 0.67
+candidate santali_one_14.wav | heard 'ᱜᱮᱴᱟ' | exact False | CER 0.67
+SHIPPED  santali_very_good.wav | heard 'ᱟᱹᱰᱤ ᱱᱟᱯᱟᱭ' | exact True | CER 0.00
+candidate santali_very_good_10.wav | heard 'ᱟᱹᱰᱤ ᱱᱟᱯᱟᱭ' | exact True | CER 0.00
+candidate santali_very_good_12.wav | heard 'ᱟᱹᱰᱤ ᱱᱟᱯᱟᱭ' | exact True | CER 0.00
+candidate santali_very_good_13.wav | heard 'ᱟᱹᱰᱤ ᱱᱟᱯᱟᱭ' | exact True | CER 0.00
+candidate santali_very_good_14.wav | heard 'ᱟᱹᱰᱤ ᱱᱟᱯᱟᱭ' | exact True | CER 0.00
+SHIPPED  santali_what_is_your_name.wav | heard 'ᱟᱢᱟᱜ ᱧᱩᱛᱩᱢ ᱪᱮᱫ' | exact True | CER 0.00
+candidate santali_what_is_your_name_10.wav | heard 'ᱟᱢᱟᱜ ᱧᱩᱛᱩᱢ ᱪᱮᱫ' | exact True | CER 0.00
+candidate santali_what_is_your_name_12.wav | heard 'ᱟᱢᱟᱜ ᱧᱩᱛᱩᱢ ᱪᱮᱫ' | exact True | CER 0.00
+candidate santali_what_is_your_name_13.wav | heard 'ᱟᱢᱟᱜ ᱧᱩᱛᱩᱢ ᱪᱮᱫ' | exact True | CER 0.00
+candidate santali_what_is_your_name_14.wav | heard 'ᱟᱢᱟᱜ ᱧᱩᱛᱩᱢ ᱪᱮᱫ' | exact True | CER 0.00

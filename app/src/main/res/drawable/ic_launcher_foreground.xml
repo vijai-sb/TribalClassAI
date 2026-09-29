@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Open book with a speech mark above it: a lesson being spoken aloud. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="@color/launcher_foreground"
+        android:pathData="M31,44 C38,42 45,43 52,47 L52,74 C45,70 38,69 31,71 Z" />
+    <path
+        android:fillColor="@color/launcher_foreground"
+        android:pathData="M77,44 C70,42 63,43 56,47 L56,74 C63,70 70,69 77,71 Z" />
+    <path
+        android:strokeColor="@color/launcher_foreground"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M44,34 C50,29 58,29 64,34" />
+</vector>

@@ -1,0 +1,2 @@
+santali_book.wav: speech 0.766 s + 300 ms lead + 200 ms tail = 1.266 s | PCM NONE 1 ch 16-bit 22050 Hz | 55886 B | non-zero samples 16895 | peak 0.90 | sha256 a98315f21c3e1fa799eb82122c44da4fd4945d82b511f7c22e18b8f7dd39e69e
+santali_one.wav: speech 1.161 s + 300 ms lead + 200 ms tail = 1.661 s | PCM NONE 1 ch 16-bit 22050 Hz | 73294 B | non-zero samples 25596 | peak 0.90 | sha256 039280a5aa51ba0ea8d95dab4bd49976a7694eba5832321125d00ce8e8a096fc

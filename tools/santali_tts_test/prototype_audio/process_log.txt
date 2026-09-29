@@ -1,0 +1,18 @@
+santali_book.wav (from santali_book_nopad.wav): gain +6.1 dB, limiter max 6.0 dB | format ('NONE', 1, 16, 22050) | 55886 B | sha256 1a0de5a51b508965
+  before (padded): {'dur_s': 1.266, 'peak_dbfs': np.float64(-0.92), 'speech_rms_dbfs': np.float64(-15.6), 'speech_ms': 460, 'dc': 0.0241, 'clipped_samples': 0}
+  after:           {'dur_s': 1.266, 'peak_dbfs': np.float64(-1.0), 'speech_rms_dbfs': np.float64(-14.29), 'speech_ms': 520, 'dc': -0.0, 'clipped_samples': 0}
+santali_one.wav (from santali_one_nopad.wav): gain +4.6 dB, limiter max 6.0 dB | format ('NONE', 1, 16, 22050) | 73294 B | sha256 a70317e3debe4445
+  before (padded): {'dur_s': 1.661, 'peak_dbfs': np.float64(-0.92), 'speech_rms_dbfs': np.float64(-19.08), 'speech_ms': 540, 'dc': 0.0118, 'clipped_samples': 0}
+  after:           {'dur_s': 1.661, 'peak_dbfs': np.float64(-1.0), 'speech_rms_dbfs': np.float64(-17.43), 'speech_ms': 600, 'dc': 0.0, 'clipped_samples': 0}
+== Santali ASR check (IndicConformer sat): old app file vs processed file
+  santali_book.wav old: heard 'ᱯᱨᱚᱛᱚᱵ' | exact: False
+  santali_book.wav new: heard 'ᱯᱚᱛᱚᱵ' | exact: True
+  santali_one.wav old: heard 'ᱢᱮᱴᱟ' | exact: False
+  santali_one.wav new: heard 'ᱢᱤᱫᱴᱟ' | exact: False
+== Santali ASR check incl. unpadded originals (CER vs intended text)
+  santali_book | original take, unpadded    | heard 'ᱯᱚᱛᱚᱵ' | CER 0.00
+  santali_book | current app file (padded)  | heard 'ᱯᱨᱚᱛᱚᱵ' | CER 0.20
+  santali_book | processed (padded)         | heard 'ᱯᱚᱛᱚᱵ' | CER 0.00
+  santali_one | original take, unpadded    | heard 'ᱢᱤᱫᱴᱟᱝ' | CER 0.00
+  santali_one | current app file (padded)  | heard 'ᱢᱮᱴᱟ' | CER 0.50
+  santali_one | processed (padded)         | heard 'ᱢᱤᱫᱴᱟ' | CER 0.17

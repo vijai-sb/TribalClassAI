@@ -1,0 +1,8 @@
+== default (0.667, 1.0, 0.8): exact matches over all 80 voices x 4: ᱯᱚᱛᱚᱵ 22/320 (7%), ᱢᱤᱫᱴᱟᱝ 78/320 (24%)
+   top voices (sid: book/one out of 4): 36: 1/3, 24: 1/3, 76: 1/2, 65: 1/2, 46: 1/2, 41: 1/2, 32: 1/2, 21: 1/2, 14: 1/2, 13: 1/2
+   voices with 0/8: 20
+== calmer (0.333, 1.15, 0.333): exact matches over all 80 voices x 4: ᱯᱚᱛᱚᱵ 78/320 (24%), ᱢᱤᱫᱴᱟᱝ 168/320 (52%)
+   top voices (sid: book/one out of 4): 7: 3/4, 32: 3/3, 28: 3/3, 10: 3/3, 11: 3/2, 4: 3/2, 60: 2/3, 47: 2/3, 17: 2/3, 13: 2/3
+   voices with 0/8: 5
+   saved santali_book_best_spk7_calmer.wav (1.11 s): ASR heard ᱯᱚᱛᱚᱵ
+   saved santali_one_best_spk7_calmer.wav (1.04 s): ASR heard ᱢᱤᱫᱴᱟᱝ

@@ -1,0 +1,149 @@
+{
+ "किताब": {
+  "output": "ᱯᱚᱛᱚᱵ ᱾",
+  "preprocessed": "hin_Deva sat_Olck किताब",
+  "src_ids": [
+   8,
+   29925,
+   6535,
+   2
+  ],
+  "tgt_ids": [
+   103129,
+   31428,
+   2
+  ],
+  "raw_decoded": "ᱯᱚᱛᱚᱵ ᱾",
+  "ms": 220
+ },
+ "एक": {
+  "output": "ᱢᱤᱫᱴᱟᱝ ᱾",
+  "preprocessed": "hin_Deva sat_Olck एक",
+  "src_ids": [
+   8,
+   29925,
+   34,
+   2
+  ],
+  "tgt_ids": [
+   64583,
+   31428,
+   2
+  ],
+  "raw_decoded": "ᱢᱤᱫᱴᱟᱝ ᱾",
+  "ms": 165
+ },
+ "अपना नाम लिखो।": {
+  "output": "ᱟᱢᱟᱜ ᱧᱩᱛᱩᱢ ᱚᱞ ᱢᱮ ᱾",
+  "preprocessed": "hin_Deva sat_Olck अपना नाम लिखो ।",
+  "src_ids": [
+   8,
+   29925,
+   1370,
+   352,
+   59393,
+   7,
+   2
+  ],
+  "tgt_ids": [
+   79072,
+   81465,
+   85079,
+   67823,
+   31428,
+   2
+  ],
+  "raw_decoded": "ᱟᱢᱟᱜ ᱧᱩᱛᱩᱢ ᱚᱞ ᱢᱮ ᱾",
+  "ms": 207
+ },
+ "अपना नाम लिखो": {
+  "output": "ᱟᱢᱟᱜ ᱧᱩᱛᱩᱢ ᱚᱞ ᱢᱮ ᱾",
+  "preprocessed": "hin_Deva sat_Olck अपना नाम लिखो",
+  "src_ids": [
+   8,
+   29925,
+   1370,
+   352,
+   59393,
+   2
+  ],
+  "tgt_ids": [
+   79072,
+   81465,
+   85079,
+   67823,
+   31428,
+   2
+  ],
+  "raw_decoded": "ᱟᱢᱟᱜ ᱧᱩᱛᱩᱢ ᱚᱞ ᱢᱮ ᱾",
+  "ms": 228
+ },
+ "पानी": {
+  "output": "ᱫᱟᱜ ᱾",
+  "preprocessed": "hin_Deva sat_Olck पानी",
+  "src_ids": [
+   8,
+   29925,
+   1550,
+   2
+  ],
+  "tgt_ids": [
+   88706,
+   31428,
+   2
+  ],
+  "raw_decoded": "ᱫᱟᱜ ᱾",
+  "ms": 153
+ },
+ "घर": {
+  "output": "ᱚᱲᱟᱜ ᱾",
+  "preprocessed": "hin_Deva sat_Olck घर",
+  "src_ids": [
+   8,
+   29925,
+   569,
+   2
+  ],
+  "tgt_ids": [
+   88532,
+   31428,
+   2
+  ],
+  "raw_decoded": "ᱚᱲᱟᱜ ᱾",
+  "ms": 109
+ },
+ "मछली": {
+  "output": "ᱢᱤᱥ ᱾",
+  "preprocessed": "hin_Deva sat_Olck मछली",
+  "src_ids": [
+   8,
+   29925,
+   21538,
+   2
+  ],
+  "tgt_ids": [
+   101740,
+   31428,
+   2
+  ],
+  "raw_decoded": "ᱢᱤᱥ ᱾",
+  "ms": 103
+ },
+ "पेड़": {
+  "output": "ᱵᱤᱨ ᱾",
+  "preprocessed": "hin_Deva sat_Olck पेड़",
+  "src_ids": [
+   8,
+   29925,
+   15560,
+   2
+  ],
+  "tgt_ids": [
+   86359,
+   31428,
+   2
+  ],
+  "raw_decoded": "ᱵᱤᱨ ᱾",
+  "ms": 109
+ }
+}

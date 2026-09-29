@@ -1,0 +1,36 @@
+अपना नाम लिखो। -> ᱟᱢᱟᱜ ᱧᱩᱛᱩᱢ ᱚᱞ ᱢᱮ ᱾ | consistent True | Ol Chiki only True | back: अपना नाम लिखें।
+    earlier feasibility: 9/10 identical: ᱟᱢᱟᱜ ᱧᱩᱛᱩᱢ ᱚᱞ ᱢᱮ | agrees today: True
+किताब खोलो। -> ᱯᱚᱛᱚᱵ ᱫᱚ ᱮᱦᱚᱵ ᱢᱮ ᱾ | consistent True | Ol Chiki only True | back: किताब शुरू करें।
+किताब बंद करो। -> ᱯᱚᱛᱚᱵ ᱫᱚ ᱵᱚᱱᱚᱫᱚᱞ ᱢᱮ ᱾ | consistent True | Ol Chiki only True | back: किताब को बंद कर दें।
+इधर आओ। -> ᱱᱚᱶᱟ ᱨᱮ ᱦᱮᱡ ᱢᱮ ᱾ | consistent True | Ol Chiki only True | back: यहाँ आओ।
+बैठ जाओ। -> ᱥᱮᱱ ᱢᱮ ᱾ | consistent False | Ol Chiki only True | back: जाओ।
+    no-punct: ᱥᱮᱱ ᱢᱮ ᱾ | beam-4: ᱵᱮᱶᱦᱟᱨ ᱢᱮ ᱾
+खड़े हो जाओ। -> ᱛᱷᱟᱯᱚᱱ ᱢᱮ ᱾ | consistent True | Ol Chiki only True | back: स्थापित करें।
+ध्यान से सुनो। -> ᱢᱚᱱᱮ ᱠᱟᱛᱮ ᱵᱟᱰᱟᱭ ᱢᱮ ᱾ | consistent False | Ol Chiki only True | back: ध्यान से सुनें।
+    no-punct: ᱩᱭᱦᱟᱹᱨ ᱥᱟᱞᱟᱜ ᱵᱟᱰᱟᱭ ᱢᱮ ᱾ | beam-4: ᱟᱹᱰᱤ ᱱᱟᱯᱟᱭ ᱛᱮ ᱵᱟᱰᱟᱭ ᱢᱮ ᱾
+    earlier feasibility: 4/10 identical: ᱢᱚᱱᱮ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ | agrees today: False
+पानी पियो। -> ᱫᱟᱜᱧᱟᱢ ᱢᱮ ᱾ | consistent True | Ol Chiki only True | back: पानी पीना।
+मेरे साथ बोलो। -> ᱤᱧ ᱥᱟᱶ ᱠᱟᱛᱷᱟ ᱞᱟᱹᱭ ᱢᱮ ᱾ | consistent True | Ol Chiki only True | back: मुझसे बात करें।
+सब बच्चे बैठो। -> ᱥᱟᱱᱟᱢ ᱜᱤᱫᱽᱨᱟᱹ ᱠᱚ ᱥᱮᱱ ᱢᱮ ᱾ | consistent True | Ol Chiki only True | back: सभी बच्चों को जाने दें।
+चुप रहो। -> ᱥᱩᱛᱚ ᱢᱮ ᱾ | consistent False | Ol Chiki only True | back: शांत हो जाओ।
+    no-punct: ᱥᱩᱛᱚ ᱢᱮ ᱾ | beam-4: ᱥᱳᱯᱨᱳᱫᱽ ᱢᱮ ᱾
+हाथ उठाओ। -> ᱛᱤ ᱪᱮᱛᱟᱱ ᱨᱮ ᱫᱚᱦᱚ ᱢᱮ ᱾ | consistent True | Ol Chiki only True | back: हाथ ऊपर रखें।
+दरवाज़ा बंद करो। -> ᱫᱟᱹᱨᱟᱹ ᱫᱚ ᱵᱚᱱᱚᱫᱚᱞ ᱢᱮ ᱾ | consistent True | Ol Chiki only True | back: दरवाजा बंद कर दें।
+बोर्ड देखो। -> ᱵᱳᱨᱰ ᱫᱚ ᱧᱮᱞ ᱢᱮ ᱾ | consistent True | Ol Chiki only True | back: बोर्ड को देखें।
+यह किताब है। -> ᱱᱚᱶᱟ ᱫᱚ ᱢᱤᱫᱴᱟᱝ ᱯᱚᱛᱚᱵ ᱾ | consistent False | Ol Chiki only True | back: यह एक किताब है।
+    no-punct: ᱱᱚᱶᱟ ᱫᱚ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ ᱯᱚᱛᱚᱵ ᱾ | beam-4: ᱱᱚᱶᱟ ᱫᱚ ᱢᱤᱫᱴᱟᱝ ᱯᱚᱛᱚᱵ ᱾
+यह कलम है। -> ᱱᱚᱶᱟ ᱫᱚ ᱢᱤᱫᱴᱟᱝ ᱯᱮᱱ ᱾ | consistent False | Ol Chiki only True | back: यह एक पैन है।
+    no-punct: ᱱᱚᱶᱟ ᱫᱚ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ ᱢᱤᱫᱴᱟᱝ ᱯᱮᱱ ᱾ | beam-4: ᱱᱚᱶᱟ ᱫᱚ ᱢᱤᱫᱴᱟᱝ ᱯᱮᱱ ᱾
+यह पानी है। -> ᱱᱚᱶᱟ ᱫᱚ ᱫᱟᱜ ᱾ | consistent True | Ol Chiki only True | back: यह पानी है।
+नमस्ते। -> ᱦᱚᱞᱮᱹᱣ, ᱦᱚᱞᱮᱹᱣ ᱾ | consistent False | Ol Chiki only False | back: हैलो, हैलो।
+    no-punct: ᱦᱚᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮᱹᱞᱮ | beam-4: ᱟᱠᱷᱟᱲᱟ, ᱟᱠᱷᱟᱲᱟ ᱾
+सुप्रभात। -> ᱟᱹᱰᱤ ᱱᱟᱯᱟᱭ ꯑꯌꯨꯛ ᱾ | consistent False | Ol Chiki only False | back: बहुत अच्छी सुबह।
+    no-punct: ᱟᱹᱰᱤ ᱱᱟᱯᱟᱭ صبح ᱾ | beam-4: ᱟᱹᱰᱤ ᱱᱟᱯᱟᱭ ꯑꯌꯨꯛ ᱾
+धन्यवाद। -> ᱥᱟᱨᱦᱟᱰ ᱮᱢ ᱢᱮ ᱾ | consistent False | Ol Chiki only True | back: धन्यवाद।
+    no-punct: ᱥᱟᱨᱦᱟᱶ ᱮᱢ ᱢᱮ ᱾ | beam-4: ᱥᱟᱨᱦᱟᱶ ᱮᱢ ᱢᱮ ᱾
+बहुत अच्छा। -> ᱟᱹᱰᱤ ᱱᱟᱯᱟᱭ ᱾ | consistent True | Ol Chiki only True | back: बहुत अच्छा है।
+शाबाश। -> ᱥᱟᱵᱟᱥ ᱾ | consistent True | Ol Chiki only True | back: सुभाष।
+तुम्हारा नाम क्या है? -> ᱟᱢᱟᱜ ᱧᱩᱛᱩᱢ ᱪᱮᱫ? | consistent True | Ol Chiki only False | back: आपका नाम क्या है?
+तुम कैसे हो? -> ᱟᱢ ᱪᱮᱫ ᱞᱮᱠᱟ? | consistent False | Ol Chiki only False | back: आप कैसे हैं?
+    no-punct: ᱟᱢ ᱪᱮᱫ ᱞᱮᱠᱟ ᱾ | beam-4: ᱟᱢ ᱪᱮᱫ ᱞᱮᱠᱟ?
+यह क्या है? -> ᱱᱚᱶᱟ ᱫᱚ ᱪᱮᱫ? | consistent True | Ol Chiki only False | back: यह क्या है?

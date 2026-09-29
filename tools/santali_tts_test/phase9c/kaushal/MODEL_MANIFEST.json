@@ -1,0 +1,54 @@
+{
+  "model": {
+    "name": "santali_piper_vits",
+    "language": "Santali",
+    "language_code": "sat",
+    "script": "Ol Chiki",
+    "architecture": "Piper VITS",
+    "piper_version": "1.5.0",
+    "sample_rate_hz": 22050,
+    "speakers": 80,
+    "num_symbols": 168,
+    "speaker_type": "female"
+  },
+  "training": {
+    "utterances": 10348,
+    "training_hours": 20.0498,
+    "speakers": 80,
+    "completed_epochs": 50,
+    "target_epochs": 50,
+    "batch_size_per_gpu": 8,
+    "gpu_count": 2,
+    "hardware": "2 x NVIDIA Tesla T4",
+    "precision": "16-mixed",
+    "validation_split": 0.02
+  },
+  "dataset": {
+    "name": "XKaab/ASR-santali_100hrs",
+    "repository": "XKaab/ASR-santali_100hrs",
+    "selection": "Female Santali speech",
+    "selected_utterances": 10348,
+    "selected_speakers": 80
+  },
+  "phonemization": {
+    "type": "custom",
+    "script": "santhali_phonemizer.py",
+    "function": "santhali_to_ipa",
+    "phoneme_symbols": 168
+  },
+  "artifacts": {
+    "onnx_model": "model/santali_piper_vits.onnx",
+    "onnx_config": "model/santali_piper_vits.onnx.json",
+    "checkpoint": "model/santali_piper_vits_epoch50.ckpt",
+    "phoneme_map": "phoneme_id_map.json",
+    "phonemes": "phonemes.json",
+    "metadata": "metadata.csv",
+    "training_config": "training_config.json",
+    "android_package": "santali_female_multispeaker_piper_onnx_android.tar.gz"
+  },
+  "status": {
+    "release_epoch": 50,
+    "training_target": 50,
+    "is_final": true
+  }
+}

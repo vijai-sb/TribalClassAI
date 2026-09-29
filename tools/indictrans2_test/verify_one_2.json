@@ -1,0 +1,30 @@
+{
+ "hindi": "बच्चों, अपनी किताब खोलो।",
+ "output": "ᱜᱤᱫᱽᱨᱟᱹᱠᱚ, ᱟᱢᱟᱜ ᱯᱚᱛᱚᱵ ᱫᱚ ᱮᱦᱚᱵ ᱢᱮ ᱾",
+ "tgt_ids": [
+  89125,
+  72123,
+  5,
+  79072,
+  103129,
+  48377,
+  93030,
+  67823,
+  31428,
+  2
+ ],
+ "greedy_x3_identical": true,
+ "no_punct_output": "ᱜᱤᱫᱽᱨᱟᱹᱠᱚ, ᱟᱢᱟᱜ ᱯᱚᱛᱚᱵ ᱮᱦᱚᱵ ᱢᱮ ᱾",
+ "no_punct_same": false,
+ "beam4_output": "ᱜᱤᱫᱽᱨᱟᱹᱠᱚ, ᱟᱢᱟᱜ ᱯᱚᱛᱚᱵ ᱮᱦᱚᱵ ᱢᱮ ᱾",
+ "beam4_same": false,
+ "beam4_same_words": false,
+ "ol_chiki_only": true,
+ "back_translation": "बच्चों, अपनी किताब शुरू करें।",
+ "earlier_feasibility": {
+  "runs_identical": "2/10 identical",
+  "output": "ᱜᱤᱫᱽᱨᱟᱹᱠᱚ, ᱟᱢᱟᱜ ᱯᱚᱛᱚᱵ ᱮᱛᱚᱦᱚᱵ ᱢᱮ",
+  "back_translations": "back-translations of that output: [('बच्चों, अपनी किताब शुरू करें', 2)]",
+  "agrees_today": false
+ }
+}

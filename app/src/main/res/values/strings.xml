@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">TribalClass AI</string>
+
+    <string name="home_subtitle">Mother-Tongue Classroom Assistant</string>
+    <string name="home_target_language_label">Target language</string>
+    <string name="home_target_language">Santali • Ol Chiki</string>
+    <string name="home_status_offline">Offline Ready</string>
+
+    <string name="feature_teacher_title">Teacher Mode</string>
+    <string name="feature_teacher_body">Translate Hindi lessons into Santali</string>
+    <string name="feature_lessons_title">Lessons</string>
+    <string name="feature_lessons_body">Offline classroom learning content</string>
+    <string name="feature_worksheets_title">Worksheets</string>
+    <string name="feature_worksheets_body">Bilingual Hindi–Santali activities</string>
+
+    <string name="screen_translation_title">Translation</string>
+    <string name="pending_message">This screen is not built yet. It is planned for a later phase.</string>
+    <string name="navigate_back">Back</string>
+
+    <string name="teacher_language_pair">Hindi → Santali</string>
+    <string name="teacher_script">Ol Chiki</string>
+    <string name="teacher_status_offline">Offline content ready</string>
+    <string name="teacher_topic_label">Lesson topic</string>
+    <string name="teacher_lesson_hindi_label">Hindi words and phrases</string>
+    <string name="teacher_lesson_tap_hint">Tap a word to put it in the Hindi box.</string>
+    <string name="teacher_lesson_activity_label">Classroom activity</string>
+    <string name="teacher_input_label">Hindi</string>
+    <string name="teacher_input_placeholder">Type a Hindi sentence...</string>
+    <string name="teacher_translate">Translate</string>
+    <string name="speech_speak_hindi">Speak Hindi</string>
+    <string name="speech_listening">Listening...</string>
+    <string name="speech_recognizing">Recognizing...</string>
+    <string name="speech_tap_to_stop">Tap again when you have finished speaking.</string>
+    <string name="speech_error_not_recognized">Could not recognize speech.</string>
+    <string name="speech_error_microphone">Microphone is not available.</string>
+    <string name="speech_permission_denied">Microphone permission is required to speak Hindi. You can still type.</string>
+    <string name="speech_unavailable">Hindi speech input is not available: the offline Hindi speech model is missing or could not be loaded.</string>
+    <string name="teacher_result_label">Santali • Ol Chiki</string>
+    <string name="teacher_result_placeholder">Translation will appear here.</string>
+    <string name="teacher_result_not_available">Translation not available in the offline phrase pack.</string>
+    <string name="translation_status_model_unreviewed">Machine-generated · not yet reviewed</string>
+    <string name="translation_status_human_verified">Verified by a Santali speaker</string>
+    <string name="teacher_audio_label">Santali audio</string>
+    <string name="teacher_play_audio">Play Audio</string>
+    <string name="teacher_stop_audio">Stop</string>
+    <string name="teacher_audio_not_available">Translate a cached phrase to hear its Santali audio.</string>
+    <string name="teacher_audio_unavailable_for_phrase">Audio unavailable for this cached phrase.</string>
+    <string name="teacher_audio_volume_muted">Media volume is off. Turn up the volume to hear the audio.</string>
+    <string name="teacher_audio_playback_failed">This audio could not be played.</string>
+    <string name="audio_kind_pre_recorded">Pre-recorded Santali audio</string>
+    <string name="audio_kind_pre_generated_tts">Pre-generated Santali speech (TTS model)</string>
+
+    <string name="s2a_title">Hindi → Santali Audio</string>
+    <string name="s2a_description">Hindi speech is recognized by the Hindi speech model, the Hindi text is translated to Santali text with IndicTrans2, and a cached Santali audio clip is played. Cached classroom phrases are listed below; speak one of them.</string>
+    <string name="s2a_start_recording">Start Recording</string>
+    <string name="s2a_use_typed">Use the typed Hindi text instead</string>
+    <string name="s2a_hindi_from_speech">Hindi (recognized speech)</string>
+    <string name="s2a_hindi_typed">Hindi (typed)</string>
+    <string name="s2a_hindi_phrase_button">Hindi (prototype phrase button)</string>
+    <string name="s2a_try_phrase">Cached classroom phrases (buttons for testing):</string>
+    <string name="s2a_indictrans2_step">↓ IndicTrans2 (hin_Deva → sat_Olck)</string>
+    <string name="s2a_santali_label">Santali</string>
+    <string name="s2a_provenance_recorded">Recorded IndicTrans2 output from a desktop run (320M, INT8 ONNX). Not translated on this phone.</string>
+    <string name="s2a_provenance_on_device">Translated on this phone by IndicTrans2.</string>
+    <string name="s2a_audio_step">↓ Cached Santali audio</string>
+    <string name="s2a_playing">🔊 Playing Santali audio</string>
+    <string name="s2a_play_again">Play again</string>
+    <string name="s2a_not_available">Translation/audio not available for this prototype phrase.</string>
+    <string name="s2a_no_audio_for_phrase">No cached Santali audio for this sentence yet: the generated speech did not pass the quality check.</string>
+
+    <string name="worksheet_title">Bilingual Worksheet</string>
+    <string name="worksheet_offline">Offline</string>
+    <string name="worksheet_words_title">Words and phrases</string>
+    <plurals name="worksheet_translated_count">
+        <item quantity="one">%1$d of %2$d item has a Santali translation in the offline phrase pack.</item>
+        <item quantity="other">%1$d of %2$d items have a Santali translation in the offline phrase pack.</item>
+    </plurals>
+    <string name="worksheet_translation_not_available">Translation not available</string>
+    <string name="worksheet_practice_title">Classroom practice</string>
+    <string name="worksheet_practice_match">Match the Hindi word with the Santali word. Tap a Hindi word, then its Santali word.</string>
+    <string name="worksheet_match_pick_hindi">Tap a Hindi word to start.</string>
+    <string name="worksheet_match_pick_santali">Now tap the Santali word that means the same.</string>
+    <string name="worksheet_match_correct">Correct!</string>
+    <string name="worksheet_match_try_again">Not a match. Try again.</string>
+    <string name="worksheet_match_all_done">All words matched!</string>
+    <string name="worksheet_match_restart">Start again</string>
+    <string name="worksheet_practice_read_aloud">Only one word in this lesson has a Santali translation so far, which is not enough to match. Read it aloud together: first in Hindi, then in Santali.</string>
+    <string name="worksheet_practice_none">No words in this lesson have a Santali translation yet, so there is no practice activity. Use the Hindi words above with the classroom activity below.</string>
+    <string name="worksheet_teacher_title">For the teacher</string>
+    <string name="worksheet_teacher_instruction">Use this worksheet to practice the lesson vocabulary in Hindi and Santali.</string>
+    <string name="worksheet_teacher_review_note">Santali words marked \"Machine-generated · not yet reviewed\" have not been checked by a Santali speaker. Please check them before relying on them in class.</string>
+</resources>

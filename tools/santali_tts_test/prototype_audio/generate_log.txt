@@ -1,0 +1,2 @@
+santali_book.wav: किताब -> ᱯᱚᱛᱚᱵ | take 5 | ASR heard 'ᱯᱚᱛᱚᱵ' | 33836 B | 22050 Hz mono 16-bit PCM=True | 0.766 s | peak 0.90 | frames above -34 dBFS: 760 ms
+santali_one.wav: एक -> ᱢᱤᱫᱴᱟᱝ | take 1 | ASR heard 'ᱢᱤᱫᱴᱟᱝ' | 51244 B | 22050 Hz mono 16-bit PCM=True | 1.161 s | peak 0.90 | frames above -34 dBFS: 540 ms

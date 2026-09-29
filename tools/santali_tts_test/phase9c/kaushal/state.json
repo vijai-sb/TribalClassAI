@@ -1,0 +1,30 @@
+{
+  "select_again": false,
+  "selection_exists": true,
+  "selection_path": "/kaggle/working/santali_piper/selected_dataset/metadata.parquet",
+  "updated_at": "2026-09-27 18:45:25",
+  "dataset_id": "XKaab/ASR-santali_100hrs",
+  "root": "/kaggle/working/santali_piper",
+  "metadata_file": "/kaggle/working/santali_piper/santali_female_metadata.parquet",
+  "selection_file": "/kaggle/working/santali_piper/selected_metadata.parquet",
+  "selected_dataset_dir": "/kaggle/working/santali_piper/selected_dataset",
+  "selected_dataset_metadata": "/kaggle/working/santali_piper/selected_dataset/metadata.parquet",
+  "selected_dataset_csv": "/kaggle/working/santali_piper/selected_dataset/metadata.csv",
+  "selected_dataset_manifest": "/kaggle/working/santali_piper/selected_dataset/manifest.json",
+  "audio_dir": "/kaggle/working/santali_piper/audio",
+  "phoneme_csv": "/kaggle/working/santali_piper/audio_phoneme_ids.csv",
+  "phoneme_map": "/kaggle/working/santali_piper/phoneme_id_map.json",
+  "train_dir": "/kaggle/working/santali_piper/training",
+  "target_hours": 20.0,
+  "target_mix": {
+    "Read": 0.15,
+    "Conversation": 0.25,
+    "Extempore": 0.6
+  },
+  "speaker_count": 80,
+  "clip_count": 10348,
+  "audio_hours": 20.04981373263889,
+  "sample_rate": 22050,
+  "piper_version": "v1.6.1",
+  "prepared": true
+}

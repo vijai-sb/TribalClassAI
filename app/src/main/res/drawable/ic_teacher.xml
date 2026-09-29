@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Person -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M8,6.5m-3,0a3,3 0,1 0,6 0a3,3 0,1 0,-6 0" />
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M2,20v-1.5C2,15.5 4.7,13 8,13s6,2.5 6,5.5V20Z" />
+    <!-- Board -->
+    <path
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1.8"
+        android:strokeLineJoin="round"
+        android:pathData="M13,3.5h8.5v7h-8.5z" />
+</vector>

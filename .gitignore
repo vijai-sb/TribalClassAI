@@ -1,0 +1,28 @@
+# Android / Gradle
+*.iml
+.gradle/
+.kotlin/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/app/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+
+# Python tooling
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Model weights (large; fetch/export separately)
+tools/**/model/
+*.onnx
+*.onnx.data
+*.ort
+*.bin
+*.safetensors

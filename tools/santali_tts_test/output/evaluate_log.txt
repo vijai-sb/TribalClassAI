@@ -1,0 +1,17 @@
+== WAV validation (generated files)
+santali_book.wav: 20524 bytes | 16000 Hz | 1 ch | 16-bit PCM | 0.64 s | speech span 0.50 s | RMS 0.116 | clipped samples 0
+santali_one.wav: 50732 bytes | 16000 Hz | 1 ch | 16-bit PCM | 1.58 s | speech span 1.16 s | RMS 0.154 | clipped samples 0
+
+== ASR proxy on the saved outputs
+santali_book.wav: intended ᱯᱚᱛᱚᱵ | ASR heard ᱠᱷᱫ ᱠᱚ | CER 1.00
+santali_one.wav: intended ᱢᱤᱫᱴᱟᱝ | ASR heard ᱥ | CER 1.00
+
+== ASR proxy on 10 fresh syntheses per phrase (sampling varies run to run)
+ᱯᱚᱛᱚᱵ: exact 0/10 | median CER 1.00 | heard: ᱪᱠᱟ, ᱚ, ᱚᱠᱛᱚ, ᱚᱭ ᱵᱟᱲ, ᱩᱠᱩᱞ ᱫᱚ, ᱠᱚ ᱜᱟᱹᱫ, ᱛᱮᱜᱩᱜ ᱟᱵᱚ, ᱛᱚᱦᱚᱵ, ᱟᱹᱫᱤ, ᱛ
+ᱢᱤᱫᱴᱟᱝ: exact 0/10 | median CER 1.00 | heard: ᱦᱩᱸ, ᱥᱟ ᱧᱢᱟ ᱟᱨᱚ, ᱦᱩᱸ, ᱦᱮᱸ, ᱦᱮᱸ ᱦᱮᱸ, ᱦᱮᱸ, ᱦᱩᱸ, ᱦᱮ, ᱦ, ∅
+
+== Reference: the repository's own sample clips (intended text not published)
+count.wav: 16000 Hz | 0.51 s | ASR heard ᱥᱤᱡᱩ
+open_book.wav: 16000 Hz | 1.26 s | ASR heard ᱴᱫ
+praise.wav: 16000 Hz | 1.71 s | ASR heard (nothing)
+sit_down.wav: 16000 Hz | 0.66 s | ASR heard ᱦᱚᱢ

@@ -1,0 +1,4 @@
+voice 7, calmer settings (0.333, 1.15, 0.333), 20 samples per word, 1 ORT thread and 4 threads timed
+ᱯᱚᱛᱚᱵ: exact 11/20 | synth median 66 ms (max 75) for ~0.88 s audio | heard: ᱯᱚᱛᱚ, ᱠᱚᱫᱚ, ᱡᱚᱛᱚᱵ, ᱯᱛᱚᱵ, ᱯᱚᱛᱚᱵ, ᱯᱚᱛᱚᱨ, ᱯᱚᱛᱚᱵ, ᱯᱚᱛᱚᱵ, ᱯᱴᱚᱵ, ᱯᱚᱛᱚᱵ, ᱚᱠᱛᱚ, ᱠᱚᱠᱛᱚᱵ, ᱯᱚᱛᱚᱵ, ᱯᱚᱛᱚᱵ, ᱯᱚᱛᱚᱵ, ᱯᱚᱛᱚᱵ, ᱯᱚᱛᱚᱵ, ᱯᱚᱛᱚᱵ, ᱯᱚᱛᱚᱵ, ᱯᱠᱛᱚᱚᱵ
+ᱢᱤᱫᱴᱟᱝ: exact 19/20 | synth median 68 ms (max 86) for ~1.08 s audio | heard: ᱢᱤᱫᱴᱟᱝ, ᱢᱤᱫᱴᱟᱝ, ᱢᱤᱫᱴᱟᱝ, ᱢᱤᱫᱴᱟᱝ, ᱢᱤᱫᱴᱟᱝ, ᱢᱤᱫᱴᱟᱝ, ᱢᱤᱫᱴᱟᱝ, ᱢᱤᱫᱴᱟᱝ, ᱢᱮᱛᱟᱝ, ᱢᱤᱫᱴᱟᱝ, ᱢᱤᱫᱴᱟᱝ, ᱢᱤᱫᱴᱟᱝ, ᱢᱤᱫᱴᱟᱝ, ᱢᱤᱫᱴᱟᱝ, ᱢᱤᱫᱴᱟᱝ, ᱢᱤᱫᱴᱟᱝ, ᱢᱤᱫᱴᱟᱝ, ᱢᱤᱫᱴᱟᱝ, ᱢᱤᱫᱴᱟᱝ, ᱢᱤᱫᱴᱟᱝ
+single-thread synth (ᱢᱤᱫᱴᱟᱝ): median 148 ms  [laptop CPU; Android CPU latency not verified]

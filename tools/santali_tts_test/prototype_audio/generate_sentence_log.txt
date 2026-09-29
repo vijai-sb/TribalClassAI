@@ -1,0 +1,82 @@
+D:\a\sherpa-onnx\sherpa-onnx\sherpa-onnx\csrc\offline-stream.cc:AcceptWaveformImpl:146 Creating a resampler:
+   in_sample_rate: 22050
+   output_sample_rate: 16000
+
+D:\a\sherpa-onnx\sherpa-onnx\sherpa-onnx\csrc\offline-stream.cc:AcceptWaveformImpl:146 Creating a resampler:
+   in_sample_rate: 22050
+   output_sample_rate: 16000
+
+D:\a\sherpa-onnx\sherpa-onnx\sherpa-onnx\csrc\offline-stream.cc:AcceptWaveformImpl:146 Creating a resampler:
+   in_sample_rate: 22050
+   output_sample_rate: 16000
+
+D:\a\sherpa-onnx\sherpa-onnx\sherpa-onnx\csrc\offline-stream.cc:AcceptWaveformImpl:146 Creating a resampler:
+   in_sample_rate: 22050
+   output_sample_rate: 16000
+
+D:\a\sherpa-onnx\sherpa-onnx\sherpa-onnx\csrc\offline-stream.cc:AcceptWaveformImpl:146 Creating a resampler:
+   in_sample_rate: 22050
+   output_sample_rate: 16000
+
+D:\a\sherpa-onnx\sherpa-onnx\sherpa-onnx\csrc\offline-stream.cc:AcceptWaveformImpl:146 Creating a resampler:
+   in_sample_rate: 22050
+   output_sample_rate: 16000
+
+D:\a\sherpa-onnx\sherpa-onnx\sherpa-onnx\csrc\offline-stream.cc:AcceptWaveformImpl:146 Creating a resampler:
+   in_sample_rate: 22050
+   output_sample_rate: 16000
+
+D:\a\sherpa-onnx\sherpa-onnx\sherpa-onnx\csrc\offline-stream.cc:AcceptWaveformImpl:146 Creating a resampler:
+   in_sample_rate: 22050
+   output_sample_rate: 16000
+
+D:\a\sherpa-onnx\sherpa-onnx\sherpa-onnx\csrc\offline-stream.cc:AcceptWaveformImpl:146 Creating a resampler:
+   in_sample_rate: 22050
+   output_sample_rate: 16000
+
+D:\a\sherpa-onnx\sherpa-onnx\sherpa-onnx\csrc\offline-stream.cc:AcceptWaveformImpl:146 Creating a resampler:
+   in_sample_rate: 22050
+   output_sample_rate: 16000
+
+D:\a\sherpa-onnx\sherpa-onnx\sherpa-onnx\csrc\offline-stream.cc:AcceptWaveformImpl:146 Creating a resampler:
+   in_sample_rate: 22050
+   output_sample_rate: 16000
+
+D:\a\sherpa-onnx\sherpa-onnx\sherpa-onnx\csrc\offline-stream.cc:AcceptWaveformImpl:146 Creating a resampler:
+   in_sample_rate: 22050
+   output_sample_rate: 16000
+
+D:\a\sherpa-onnx\sherpa-onnx\sherpa-onnx\csrc\offline-stream.cc:AcceptWaveformImpl:146 Creating a resampler:
+   in_sample_rate: 22050
+   output_sample_rate: 16000
+
+D:\a\sherpa-onnx\sherpa-onnx\sherpa-onnx\csrc\offline-stream.cc:AcceptWaveformImpl:146 Creating a resampler:
+   in_sample_rate: 22050
+   output_sample_rate: 16000
+
+D:\a\sherpa-onnx\sherpa-onnx\sherpa-onnx\csrc\offline-stream.cc:AcceptWaveformImpl:146 Creating a resampler:
+   in_sample_rate: 22050
+   output_sample_rate: 16000
+
+D:\a\sherpa-onnx\sherpa-onnx\sherpa-onnx\csrc\offline-stream.cc:AcceptWaveformImpl:146 Creating a resampler:
+   in_sample_rate: 22050
+   output_sample_rate: 16000
+
+D:\a\sherpa-onnx\sherpa-onnx\sherpa-onnx\csrc\offline-stream.cc:AcceptWaveformImpl:146 Creating a resampler:
+   in_sample_rate: 22050
+   output_sample_rate: 16000
+
+D:\a\sherpa-onnx\sherpa-onnx\sherpa-onnx\csrc\offline-stream.cc:AcceptWaveformImpl:146 Creating a resampler:
+   in_sample_rate: 22050
+   output_sample_rate: 16000
+
+D:\a\sherpa-onnx\sherpa-onnx\sherpa-onnx\csrc\offline-stream.cc:AcceptWaveformImpl:146 Creating a resampler:
+   in_sample_rate: 22050
+   output_sample_rate: 16000
+
+D:\a\sherpa-onnx\sherpa-onnx\sherpa-onnx\csrc\offline-stream.cc:AcceptWaveformImpl:146 Creating a resampler:
+   in_sample_rate: 22050
+   output_sample_rate: 16000
+
+santali_write_your_name: अपना नाम लिखो। -> ᱟᱢᱟᱜ ᱧᱩᱛᱩᱢ ᱚᱞ ᱢᱮ | SKIPPED: no take out of 20 transcribed exactly
+  all takes heard: ᱟᱭᱢᱟ ᱧᱩᱛᱩᱢ ᱠᱚᱢ | ᱠᱟᱞᱟᱨ ᱜᱮᱴᱩᱵ ᱠᱚᱞᱜᱤᱭᱭᱟ | ᱥᱟᱞᱟ ᱡ ᱧᱩᱛᱩ ᱵᱚᱞ ᱞᱟᱹᱜᱤᱫᱮᱫ | ᱟᱢᱟᱢᱤᱤᱛᱩ ᱜᱚᱞ ᱢᱮ | ᱟᱨ ᱱ ᱧᱩᱛᱩᱢ ᱠᱚᱞᱱᱤ | ᱟᱵᱟᱨ ᱜᱮᱛᱩ ᱯᱚᱨ ᱢᱤᱱᱤᱴ | ᱟᱢᱟᱜ ᱧᱩᱛᱩ ᱜᱚᱞᱵᱜ | ᱟᱵᱟᱨ ᱧᱩᱛᱩ ᱵᱚᱞ ᱢᱤᱫ | ᱟᱢᱟ ᱧᱩᱛᱩ ᱵᱚᱞ | ᱟᱨᱵ ᱧᱩᱛᱩᱢ ᱦᱚᱲᱜ | ᱟᱨᱢᱟᱟᱨᱜ ᱛᱩᱢᱜᱚᱞ ᱢᱮ | ᱦᱟᱱᱟ ᱧᱩᱛᱩᱢ ᱵᱚᱞ ᱧ | ᱟᱢᱟᱜ ᱧᱩᱛᱩᱢ ᱠᱚᱞᱱᱟ | ᱟᱭᱢᱟ ᱦᱩᱭᱩᱜ ᱛᱚ ᱵᱟ ᱵᱟᱞᱮ ᱞ | ᱟᱢᱟ ᱟᱜ ᱧᱩᱛᱩᱢ ᱜᱞᱢᱮ | ᱟᱵᱟᱨ ᱧᱩᱛᱩᱢ ᱜᱞ ᱢᱮ | ᱚᱱᱟᱱᱟᱜ ᱜᱮᱛᱚ ᱵᱚᱞ | ᱟᱢᱟᱜ ᱡ ᱧᱩᱛᱩ ᱵᱚᱞ ᱨᱮ | ᱨᱟᱵᱟᱜ ᱜᱮᱩᱛᱩᱢ ᱠᱚᱞ ᱨᱮ | ᱟᱵᱟᱨ ᱢ ᱧᱩᱛᱩᱵᱚᱞ

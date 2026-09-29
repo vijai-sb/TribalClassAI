@@ -1,0 +1,31 @@
+santali_very_good.wav (from santali_very_good_raw.wav): gain +5.1 dB, limiter max 6.0 dB | format ('NONE', 1, 16, 22050) | 64590 B | sha256 3a658c8d560c3a39
+  before (padded): {'dur_s': 1.464, 'peak_dbfs': np.float64(-0.92), 'speech_rms_dbfs': np.float64(-18.75), 'speech_ms': 640, 'dc': 0.0207, 'clipped_samples': 0}
+  after:           {'dur_s': 1.464, 'peak_dbfs': np.float64(-1.0), 'speech_rms_dbfs': np.float64(-15.46), 'speech_ms': 740, 'dc': 0.0, 'clipped_samples': 0}
+santali_your_name.wav (from santali_your_name_raw.wav): gain +5.6 dB, limiter max 6.0 dB | format ('NONE', 1, 16, 22050) | 76878 B | sha256 f3d77e8bf825a1db
+  before (padded): {'dur_s': 1.742, 'peak_dbfs': np.float64(-0.92), 'speech_rms_dbfs': np.float64(-15.59), 'speech_ms': 980, 'dc': 0.0378, 'clipped_samples': 0}
+  after:           {'dur_s': 1.742, 'peak_dbfs': np.float64(-1.0), 'speech_rms_dbfs': np.float64(-13.3), 'speech_ms': 1240, 'dc': -0.0, 'clipped_samples': 0}
+santali_how_are_you.wav (from santali_how_are_you_raw.wav): gain +4.2 dB, limiter max 5.6 dB | format ('NONE', 1, 16, 22050) | 72782 B | sha256 88d9cf248b9e0fa3
+  before (padded): {'dur_s': 1.649, 'peak_dbfs': np.float64(-0.92), 'speech_rms_dbfs': np.float64(-15.73), 'speech_ms': 460, 'dc': 0.0008, 'clipped_samples': 0}
+  after:           {'dur_s': 1.649, 'peak_dbfs': np.float64(-1.0), 'speech_rms_dbfs': np.float64(-13.01), 'speech_ms': 500, 'dc': -0.0, 'clipped_samples': 0}
+== Santali ASR check on processed files
+  santali_very_good: heard 'ᱟᱹᱰᱤ ᱱᱟᱯᱟᱭ' | exact: True
+  santali_your_name: heard 'ᱟᱢᱟᱜ ᱧᱩᱛᱩᱢ ᱪᱮᱫ' | exact: True
+  santali_how_are_you: heard 'ᱟᱢ ᱪᱮᱫ ᱞᱮ ᱞᱮᱠᱟ' | exact: False
+  santali_book: -15.1 LUFS
+  santali_one: -17.9 LUFS
+  santali_very_good: -16.2 LUFS
+  santali_your_name: -13.1 LUFS
+  santali_how_are_you: -14.7 LUFS
+== isolating padding vs processing (ASR proxy)
+  santali_very_good    raw, unpadded        'ᱟᱹᱰᱤ ᱱᱟᱯᱟᱭ' exact=True
+  santali_very_good    raw, padded          'ᱟᱹᱰᱤ ᱱᱟᱯᱟᱭ' exact=True
+  santali_very_good    processed, unpadded  'ᱟᱹᱰᱤ ᱱᱟᱯᱟᱭ' exact=True
+  santali_very_good    processed, padded    'ᱟᱹᱰᱤ ᱱᱟᱯᱟᱭ' exact=True
+  santali_your_name    raw, unpadded        'ᱟᱢᱟᱜ ᱧᱩᱛᱩᱢ ᱪᱮᱫ' exact=True
+  santali_your_name    raw, padded          'ᱟᱢᱟᱜ ᱧᱩᱛᱩᱢ ᱪᱮᱫ' exact=True
+  santali_your_name    processed, unpadded  'ᱟᱟᱨᱢ ᱧᱩᱛᱩᱢ ᱪᱮᱫ' exact=False
+  santali_your_name    processed, padded    'ᱟᱢᱟᱜ ᱧᱩᱛᱩᱢ ᱪᱮᱫ' exact=True
+  santali_how_are_you  raw, unpadded        'ᱟᱢ ᱪᱮᱫ ᱞᱮᱠᱟ' exact=True
+  santali_how_are_you  raw, padded          'ᱟᱢ ᱪᱮᱫ ᱞᱮᱠᱟ' exact=True
+  santali_how_are_you  processed, unpadded  'ᱟᱢ ᱪᱮᱫ ᱞᱮᱠᱟ' exact=True
+  santali_how_are_you  processed, padded    'ᱟᱢ ᱪᱮᱫᱮᱞ ᱞᱮᱠᱟ' exact=False

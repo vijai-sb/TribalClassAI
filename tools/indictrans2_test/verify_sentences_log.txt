@@ -1,0 +1,22 @@
+बच्चों, अपनी किताब खोलो। | documented 2/10: ᱜᱤᱫᱽᱨᱟᱹᱠᱚ, ᱟᱢᱟᱜ ᱯᱚᱛᱚᱵ ᱮᱛᱚᱦᱚᱵ ᱢᱮ | today: ᱜᱤᱫᱽᱨᱟᱹᱠᱚ, ᱟᱢᱟᱜ ᱯᱚᱛᱚᱵ ᱫᱚ ᱮᱦᱚᱵ ᱢᱮ ᱾ | stable x3: True | reproduces: False
+सब लोग शांत होकर बैठो। | documented 4/10: ᱥᱟᱱᱟᱢ ᱠᱚ ᱥᱳᱯᱳᱨ ᱠᱚ ᱥᱳᱯᱳᱨ ᱠᱚ ᱥᱳᱯᱳᱨ ᱠᱚ ᱥᱳᱯᱳᱨ ᱠᱚ ᱥᱳᱯᱳᱨ ᱠᱚ ᱥᱳᱯᱳᱨ  | today: ᱥᱟᱱᱟᱢ ᱦᱚᱲ ᱠᱚ ᱥᱩᱛᱚᱱ ᱠᱟᱛᱮ ᱠᱚ ᱥᱮᱱ ᱞᱮᱱᱟ ᱾ | stable x3: True | reproduces: False
+ध्यान से सुनो। | documented 4/10: ᱢᱚᱱᱮ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ | today: ᱢᱚᱱᱮ ᱠᱟᱛᱮ ᱵᱟᱰᱟᱭ ᱢᱮ ᱾ | stable x3: True | reproduces: False
+पानी पी लो। | documented 4/10: ᱫᱟᱜ | today: ᱫᱟᱜᱧᱟᱢ ᱢᱮ ᱾ | stable x3: True | reproduces: False
+आज हम गिनती सीखेंगे। | documented 3/10: ᱟᱭᱢᱟᱜᱟᱱ ᱟᱭᱢᱟᱜᱟᱱ | today: ᱛᱮᱦᱮᱧ ᱟᱢ ᱞᱮᱠᱷᱟ ᱥᱮᱪ ᱢᱮ ᱾ | stable x3: True | reproduces: False
+अपना हाथ उठाओ। | documented 4/10: ᱟᱢᱟᱜ ᱦ | today: ᱟᱢᱟᱜ ᱛᱤ ᱪᱮᱛᱟᱱ ᱨᱮ ᱫᱚᱦᱚ ᱢᱮ ᱾ | stable x3: True | reproduces: False
+बहुत अच्छा, शाबाश! | documented 4/10: ᱟᱹᱰᱤ ᱱᱟᱯᱟᱭ | today: ᱟᱹᱰᱤ ᱱᱟᱯᱟᱭ, ᱥᱟᱵᱟᱥ! | stable x3: True | reproduces: False
+बोर्ड की तरफ देखो। | documented 4/10: ᱵᱳᱨᱰ ᱫᱚ ᱧᱮᱞ | today: ᱵᱳᱨᱰ ᱥᱮᱫ ᱧᱮᱞ ᱢᱮ ᱾ | stable x3: True | reproduces: False
+अपना नाम लिखो। | documented 9/10: ᱟᱢᱟᱜ ᱧᱩᱛᱩᱢ ᱚᱞ ᱢᱮ | today: ᱟᱢᱟᱜ ᱧᱩᱛᱩᱢ ᱚᱞ ᱢᱮ ᱾ | stable x3: True | reproduces: True
+कल फिर मिलेंगे। | documented 2/10: ᱦᱚᱭᱦᱩᱫᱤᱥ ᱟᱨᱦᱚᱸ ᱧᱮᱞ ᱢᱮ | today: ᱦᱚᱭᱦᱩᱫᱮ ᱟᱨᱦᱚᱸ ᱧᱮᱞᱧᱟᱢᱚᱜᱼᱟ ᱾ | stable x3: True | reproduces: False
+गाय हमें दूध देती है। | documented 3/10: ᱜᱳ | today: ᱜᱳᱣ ᱫᱚ ᱤᱧᱟᱹᱜ دودھ ᱮ ᱮᱢ ᱞᱮᱫᱟ ᱾ | stable x3: True | reproduces: False
+पेड़ पर एक चिड़िया बैठी है। | documented 2/10: ᱢᱤᱫᱴᱟᱝ ᱵᱤᱨ ᱫᱚ ᱵᱤᱨ ᱫᱚ ᱵᱤᱨ ᱫᱚ ᱵᱤᱨ ᱫᱚ ᱵᱤᱨ ᱫᱚ ᱵᱤᱨ ᱫᱚ ᱵᱤᱨ ᱫᱚ ᱵᱤᱨ  | today: ᱢᱤᱫᱴᱟᱝ ᱵᱤᱨ ᱨᱮ ᱢᱤᱫᱴᱟᱝ ꯎꯆꯦꯛ ᱠᱚ ᱢᱮᱱᱟᱜ ᱠᱚᱣᱟ ᱾ | stable x3: True | reproduces: False
+मेरे घर में चार लोग रहते हैं। | documented 5/10: ᱤᱧᱟᱹᱜ ᱚᱲᱟᱜ ᱨᱮ 4 ᱦᱚᱲ ᱠᱚ ᱛᱟᱦᱮᱸᱱᱟ | today: ᱤᱧᱟᱹᱜ ᱚᱲᱟᱜ ᱨᱮ 4 ᱦᱚᱲ ᱠᱚ ᱛᱟᱦᱮᱸᱱᱟ ᱾ | stable x3: True | reproduces: True
+सूरज सुबह निकलता है। | documented 2/10: ᱫᱤᱱ ᱨᱮᱭᱟᱜ ᱫᱤᱱ | today: صبح ᱨᱮ ᱫᱤᱱ ᱦᱮᱡ ᱮᱱᱟ ᱾ | stable x3: True | reproduces: False
+बच्चे मैदान में खेल रहे हैं। | documented 2/10: ᱜᱤᱫᱽᱨᱟᱹ ᱠᱚ ᱠᱷᱮᱞᱳᱰ ᱴᱷᱟᱶ ᱨᱮ ᱠᱷᱮᱞᱳᱰ ᱟᱠᱟᱫᱟᱭ | today: ᱜᱤᱫᱽᱨᱟᱹ ᱠᱚ ᱠᱷᱮᱞᱳᱰ ᱴᱷᱟᱶ ᱨᱮ ᱠᱷᱮᱞᱳᱰ ᱟᱠᱟᱫᱟᱭ ᱾ | stable x3: True | reproduces: True
+आज बारिश हो रही है। | documented 4/10: ᱛᱮᱦᱮᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ  | today: ᱛᱮᱦᱮᱧ ᱫᱟᱜᱡᱩᱠ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ ᱾ | stable x3: True | reproduces: False
+पानी | documented 10/10: ᱫᱟᱜ | today: ᱫᱟᱜ ᱾ | stable x3: True | reproduces: True
+किताब | documented 10/10: ᱯᱚᱛᱚᱵ | today: ᱯᱚᱛᱚᱵ ᱾ | stable x3: True | reproduces: True
+पेड़ | documented 10/10: ᱵᱤᱨ | today: ᱵᱤᱨ ᱾ | stable x3: True | reproduces: True
+घर | documented 10/10: ᱚᱲᱟᱜ | today: ᱚᱲᱟᱜ ᱾ | stable x3: True | reproduces: True
+मछली | documented 10/10: ᱢᱤᱥ | today: ᱢᱤᱥ ᱾ | stable x3: True | reproduces: True
+एक | documented 10/10: ᱢᱤᱫᱴᱟᱝ | today: ᱢᱤᱫᱴᱟᱝ ᱾ | stable x3: True | reproduces: True

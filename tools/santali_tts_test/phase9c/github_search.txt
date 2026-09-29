@@ -1,0 +1,14 @@
+santali+tts 3 
+    mondal-anindita/santaliTTS_Inference None 0 2024-08-05 
+    suvash-code/santali-multilingual-ai-tool MIT 1 2025-08-24 Santali Multilingual AI Tool – An open-source project supporting Santali (Ol Chiki + Lat
+    Santali-AI/Open-SAIR- None 1 2026-09-19 Open SAIR (Open Santali AI Research) is an open-source, multimodal AI framework for Santal
+santali+text-to-speech 3 
+    sandiphembram2021/santali_lang_recon None 0 2024-06-30 The Santali Digital Assistant is a project to develop a voice-enabled assistant for the Sa
+    suvash-code/santali-multilingual-ai-tool MIT 1 2025-08-24 Santali Multilingual AI Tool – An open-source project supporting Santali (Ol Chiki + Lat
+    AyaanKhan27/AnuvaadAI None 0 2026-09-24 Offline-first Android translation and classroom communication app for Hindi, English, and 
+santhali+tts 0 
+ol+chiki+tts 2 
+    suvash-code/santali-multilingual-ai-tool MIT 1 2025-08-24 Santali Multilingual AI Tool – An open-source project supporting Santali (Ol Chiki + Lat
+    Santali-AI/Open-SAIR- None 1 2026-09-19 Open SAIR (Open Santali AI Research) is an open-source, multimodal AI framework for Santal
+santali+speech+synthesis 1 
+    Santali-AI/Open-SAIR- None 1 2026-09-19 Open SAIR (Open Santali AI Research) is an open-source, multimodal AI framework for Santal

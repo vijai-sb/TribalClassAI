@@ -1,0 +1,10 @@
+piper standard (^ c _ c _ $)   scales=[0.0, 1.0, 0.0]: ᱯᱚᱛᱚᱵ→ᱩᱱᱠᱩ ᱠᱚᱫᱚ (0.42s, voiced 75%) | ᱢᱤᱫᱴᱟᱝ→ᱦᱩᱸ (0.40s, voiced 91%)
+piper standard (^ c _ c _ $)   scales=[0.667, 1.3, 0.8]: ᱯᱚᱛᱚᱵ→ᱛ ᱛᱟᱦᱮᱸ (2.08s, voiced 86%) | ᱢᱤᱫᱴᱟᱝ→ᱛᱢᱟ (0.90s, voiced 92%)
+no pad (^ c c $)               scales=[0.0, 1.0, 0.0]: ᱯᱚᱛᱚᱵ→ᱚᱵ (0.38s, voiced 73%) | ᱢᱤᱫᱴᱟᱝ→ᱦᱮᱸ (0.46s, voiced 90%)
+no pad (^ c c $)               scales=[0.667, 1.3, 0.8]: ᱯᱚᱛᱚᱵ→ᱟᱨ (0.69s, voiced 93%) | ᱢᱤᱫᱴᱟᱝ→∅ (1.31s, voiced 95%)
+pad first (^ _ c _ c _ $)      scales=[0.0, 1.0, 0.0]: ᱯᱚᱛᱚᱵ→ᱵᱟᱚᱛ (0.50s, voiced 77%) | ᱢᱤᱫᱴᱟᱝ→ᱦᱩᱸ ᱦᱩᱸ (0.38s, voiced 100%)
+pad first (^ _ c _ c _ $)      scales=[0.667, 1.3, 0.8]: ᱯᱚᱛᱚᱵ→ᱠᱚ ᱛᱟᱦᱮᱸᱱᱟ (1.30s, voiced 78%) | ᱢᱤᱫᱴᱟᱝ→ᱦᱮᱸ (0.43s, voiced 92%)
+with danda (text + ᱾)          scales=[0.0, 1.0, 0.0]: ᱯᱚᱛᱚᱵ→ᱥᱮ (0.42s, voiced 83%) | ᱢᱤᱫᱴᱟᱝ→ᱦ (0.45s, voiced 91%)
+with danda (text + ᱾)          scales=[0.667, 1.3, 0.8]: ᱯᱚᱛᱚᱵ→ᱟ ᱦ ᱦᱷᱟ (0.77s, voiced 31%) | ᱢᱤᱫᱴᱟᱝ→ᱚᱠᱚ ᱜᱮ (0.85s, voiced 89%)
+
+voiced-fraction reference, repo samples: {'count.wav': '92%', 'open_book.wav': '76%', 'praise.wav': '82%', 'sit_down.wav': '78%'}

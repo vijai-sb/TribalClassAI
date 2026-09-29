@@ -1,0 +1,399 @@
+[
+ {
+  "hindi": "बच्चों, अपनी किताब खोलो।",
+  "documented": "ᱜᱤᱫᱽᱨᱟᱹᱠᱚ, ᱟᱢᱟᱜ ᱯᱚᱛᱚᱵ ᱮᱛᱚᱦᱚᱵ ᱢᱮ",
+  "documented_runs_identical": 2,
+  "documented_back_translation": "back-translations of that output: [('बच्चों, अपनी किताब शुरू करें', 2)]",
+  "today": "ᱜᱤᱫᱽᱨᱟᱹᱠᱚ, ᱟᱢᱟᱜ ᱯᱚᱛᱚᱵ ᱫᱚ ᱮᱦᱚᱵ ᱢᱮ ᱾",
+  "today_tgt_ids": [
+   89125,
+   72123,
+   5,
+   79072,
+   103129,
+   48377,
+   93030,
+   67823,
+   31428,
+   2
+  ],
+  "today_stable": true,
+  "reproduces_documented": false
+ },
+ {
+  "hindi": "सब लोग शांत होकर बैठो।",
+  "documented": "ᱥᱟᱱᱟᱢ ᱠᱚ ᱥᱳᱯᱳᱨ ᱠᱚ ᱥᱳᱯᱳᱨ ᱠᱚ ᱥᱳᱯᱳᱨ ᱠᱚ ᱥᱳᱯᱳᱨ ᱠᱚ ᱥᱳᱯᱳᱨ ᱠᱚ ᱥᱳᱯᱳᱨ ᱠᱚ ᱥᱳᱯᱳᱨ ᱠᱚ ᱥᱳᱯᱳᱨ ᱠᱚ ᱥᱳᱯᱳᱨ ᱠᱚ ᱥᱳᱯᱳᱨ ᱠᱚ ᱥᱳᱯᱳᱨ ᱠᱚ ᱥᱳᱯᱳᱨ ᱠᱚ ᱥᱳᱯᱳᱨ ᱠᱚ ᱥᱳᱯᱳᱨ ᱠᱚ ᱥᱳᱯᱳᱨ ᱠᱚ ᱥᱳᱯ",
+  "documented_runs_identical": 4,
+  "documented_back_translation": "back-translations of that output: [('सभी सपने', 4)]",
+  "today": "ᱥᱟᱱᱟᱢ ᱦᱚᱲ ᱠᱚ ᱥᱩᱛᱚᱱ ᱠᱟᱛᱮ ᱠᱚ ᱥᱮᱱ ᱞᱮᱱᱟ ᱾",
+  "today_tgt_ids": [
+   84674,
+   74934,
+   51412,
+   107269,
+   76897,
+   70985,
+   51412,
+   90538,
+   65153,
+   31428,
+   2
+  ],
+  "today_stable": true,
+  "reproduces_documented": false
+ },
+ {
+  "hindi": "ध्यान से सुनो।",
+  "documented": "ᱢᱚᱱᱮ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ",
+  "documented_runs_identical": 4,
+  "documented_back_translation": "back-translations of that output: [('ऐसा लगता है', 2), ('ऐसा लगता है ', 2)]",
+  "today": "ᱢᱚᱱᱮ ᱠᱟᱛᱮ ᱵᱟᱰᱟᱭ ᱢᱮ ᱾",
+  "today_tgt_ids": [
+   92861,
+   70985,
+   90832,
+   67823,
+   31428,
+   2
+  ],
+  "today_stable": true,
+  "reproduces_documented": false
+ },
+ {
+  "hindi": "पानी पी लो।",
+  "documented": "ᱫᱟᱜ",
+  "documented_runs_identical": 4,
+  "documented_back_translation": "back-translations of that output: [('पानी', 4)]",
+  "today": "ᱫᱟᱜᱧᱟᱢ ᱢᱮ ᱾",
+  "today_tgt_ids": [
+   88706,
+   79283,
+   81098,
+   67823,
+   31428,
+   2
+  ],
+  "today_stable": true,
+  "reproduces_documented": false
+ },
+ {
+  "hindi": "आज हम गिनती सीखेंगे।",
+  "documented": "ᱟᱭᱢᱟᱜᱟᱱ ᱟᱭᱢᱟᱜᱟᱱ",
+  "documented_runs_identical": 3,
+  "documented_back_translation": "back-translations of that output: [('बहुत', 2), ('बहुत ', 1)]",
+  "today": "ᱛᱮᱦᱮᱧ ᱟᱢ ᱞᱮᱠᱷᱟ ᱥᱮᱪ ᱢᱮ ᱾",
+  "today_tgt_ids": [
+   98109,
+   73054,
+   94718,
+   73020,
+   77171,
+   67823,
+   31428,
+   2
+  ],
+  "today_stable": true,
+  "reproduces_documented": false
+ },
+ {
+  "hindi": "अपना हाथ उठाओ।",
+  "documented": "ᱟᱢᱟᱜ ᱦ",
+  "documented_runs_identical": 4,
+  "documented_back_translation": "back-translations of that output: [('आपका', 3), ('आपका हां', 1)]",
+  "today": "ᱟᱢᱟᱜ ᱛᱤ ᱪᱮᱛᱟᱱ ᱨᱮ ᱫᱚᱦᱚ ᱢᱮ ᱾",
+  "today_tgt_ids": [
+   79072,
+   91907,
+   82054,
+   41991,
+   86927,
+   67823,
+   31428,
+   2
+  ],
+  "today_stable": true,
+  "reproduces_documented": false
+ },
+ {
+  "hindi": "बहुत अच्छा, शाबाश!",
+  "documented": "ᱟᱹᱰᱤ ᱱᱟᱯᱟᱭ",
+  "documented_runs_identical": 4,
+  "documented_back_translation": "back-translations of that output: [('बहुत', 4)]",
+  "today": "ᱟᱹᱰᱤ ᱱᱟᱯᱟᱭ, ᱥᱟᱵᱟᱥ!",
+  "today_tgt_ids": [
+   78645,
+   93706,
+   5,
+   87194,
+   102596,
+   40,
+   2
+  ],
+  "today_stable": true,
+  "reproduces_documented": false
+ },
+ {
+  "hindi": "बोर्ड की तरफ देखो।",
+  "documented": "ᱵᱳᱨᱰ ᱫᱚ ᱧᱮᱞ",
+  "documented_runs_identical": 4,
+  "documented_back_translation": "back-translations of that output: [('बोर्ड को देखें', 4)]",
+  "today": "ᱵᱳᱨᱰ ᱥᱮᱫ ᱧᱮᱞ ᱢᱮ ᱾",
+  "today_tgt_ids": [
+   105485,
+   75940,
+   86251,
+   84271,
+   67823,
+   31428,
+   2
+  ],
+  "today_stable": true,
+  "reproduces_documented": false
+ },
+ {
+  "hindi": "अपना नाम लिखो।",
+  "documented": "ᱟᱢᱟᱜ ᱧᱩᱛᱩᱢ ᱚᱞ ᱢᱮ",
+  "documented_runs_identical": 9,
+  "documented_back_translation": "back-translations of that output: [('अपना नाम दर्ज करें', 5), ('अपना नाम', 3), ('अपना नाम लिखें', 1)]",
+  "today": "ᱟᱢᱟᱜ ᱧᱩᱛᱩᱢ ᱚᱞ ᱢᱮ ᱾",
+  "today_tgt_ids": [
+   79072,
+   81465,
+   85079,
+   67823,
+   31428,
+   2
+  ],
+  "today_stable": true,
+  "reproduces_documented": true
+ },
+ {
+  "hindi": "कल फिर मिलेंगे।",
+  "documented": "ᱦᱚᱭᱦᱩᱫᱤᱥ ᱟᱨᱦᱚᱸ ᱧᱮᱞ ᱢᱮ",
+  "documented_runs_identical": 2,
+  "documented_back_translation": "back-translations of that output: [('स्थिति को फिर से देखें', 2)]",
+  "today": "ᱦᱚᱭᱦᱩᱫᱮ ᱟᱨᱦᱚᱸ ᱧᱮᱞᱧᱟᱢᱚᱜᱼᱟ ᱾",
+  "today_tgt_ids": [
+   90920,
+   81211,
+   85448,
+   71516,
+   86165,
+   84271,
+   79283,
+   81098,
+   85034,
+   31428,
+   2
+  ],
+  "today_stable": true,
+  "reproduces_documented": false
+ },
+ {
+  "hindi": "गाय हमें दूध देती है।",
+  "documented": "ᱜᱳ",
+  "documented_runs_identical": 3,
+  "documented_back_translation": "back-translations of that output: [('गो', 3)]",
+  "today": "ᱜᱳᱣ ᱫᱚ ᱤᱧᱟᱹᱜ دودھ ᱮ ᱮᱢ ᱞᱮᱫᱟ ᱾",
+  "today_tgt_ids": [
+   92549,
+   82868,
+   48377,
+   76527,
+   89023,
+   45010,
+   67577,
+   75697,
+   66286,
+   31428,
+   2
+  ],
+  "today_stable": true,
+  "reproduces_documented": false
+ },
+ {
+  "hindi": "पेड़ पर एक चिड़िया बैठी है।",
+  "documented": "ᱢᱤᱫᱴᱟᱝ ᱵᱤᱨ ᱫᱚ ᱵᱤᱨ ᱫᱚ ᱵᱤᱨ ᱫᱚ ᱵᱤᱨ ᱫᱚ ᱵᱤᱨ ᱫᱚ ᱵᱤᱨ ᱫᱚ ᱵᱤᱨ ᱫᱚ ᱵᱤᱨ ᱫᱚ ᱵᱤᱨ ᱫᱚ ᱵᱤᱨ ᱫᱚ ᱵᱤᱨ ᱫᱚ ᱵᱤᱨ ᱫᱚ ᱵᱤᱨ ᱫᱚ ᱵᱤᱨ ᱫᱚ ᱵᱤᱨ ᱫᱚ ᱵᱤᱨ ᱫᱚ ᱵᱤᱨ ᱫᱚ ᱵᱤᱨ ᱫᱚ ᱵᱤᱨ ᱫᱚ ᱵᱤᱨ ᱫᱚ ᱵᱤᱨ ᱫᱚ ᱵᱤᱨ ᱫᱚ ᱵᱤᱨ ᱫᱚ ᱵᱤᱨ ᱫᱚ ᱵᱤᱨ ᱫᱚ ᱵᱤᱨ ᱫᱚ ᱵᱤᱨ ᱫᱚ ᱵᱤᱨ ᱫᱚ ᱵᱤᱨ ᱫᱚ ᱵᱤᱨ ᱫᱚ ᱵᱤᱨ ᱫᱚ ᱵᱤᱨ",
+  "documented_runs_identical": 2,
+  "documented_back_translation": "back-translations of that output: [('एक पेड़', 2)]",
+  "today": "ᱢᱤᱫᱴᱟᱝ ᱵᱤᱨ ᱨᱮ ᱢᱤᱫᱴᱟᱝ ꯎꯆꯦꯛ ᱠᱚ ᱢᱮᱱᱟᱜ ᱠᱚᱣᱟ ᱾",
+  "today_tgt_ids": [
+   64583,
+   86359,
+   41991,
+   64583,
+   96086,
+   51412,
+   81909,
+   88051,
+   31428,
+   2
+  ],
+  "today_stable": true,
+  "reproduces_documented": false
+ },
+ {
+  "hindi": "मेरे घर में चार लोग रहते हैं।",
+  "documented": "ᱤᱧᱟᱹᱜ ᱚᱲᱟᱜ ᱨᱮ 4 ᱦᱚᱲ ᱠᱚ ᱛᱟᱦᱮᱸᱱᱟ",
+  "documented_runs_identical": 5,
+  "documented_back_translation": "back-translations of that output: [('हमारे घर में 4 लोग रहते हैं', 4), ('हमारे घर में 4 लोग रहते हैं ', 1)]",
+  "today": "ᱤᱧᱟᱹᱜ ᱚᱲᱟᱜ ᱨᱮ 4 ᱦᱚᱲ ᱠᱚ ᱛᱟᱦᱮᱸᱱᱟ ᱾",
+  "today_tgt_ids": [
+   76527,
+   89023,
+   88532,
+   41991,
+   349,
+   74934,
+   51412,
+   93872,
+   31428,
+   2
+  ],
+  "today_stable": true,
+  "reproduces_documented": true
+ },
+ {
+  "hindi": "सूरज सुबह निकलता है।",
+  "documented": "ᱫᱤᱱ ᱨᱮᱭᱟᱜ ᱫᱤᱱ",
+  "documented_runs_identical": 2,
+  "documented_back_translation": "back-translations of that output: [('दिन', 2)]",
+  "today": "صبح ᱨᱮ ᱫᱤᱱ ᱦᱮᱡ ᱮᱱᱟ ᱾",
+  "today_tgt_ids": [
+   21919,
+   41991,
+   89417,
+   90364,
+   88434,
+   31428,
+   2
+  ],
+  "today_stable": true,
+  "reproduces_documented": false
+ },
+ {
+  "hindi": "बच्चे मैदान में खेल रहे हैं।",
+  "documented": "ᱜᱤᱫᱽᱨᱟᱹ ᱠᱚ ᱠᱷᱮᱞᱳᱰ ᱴᱷᱟᱶ ᱨᱮ ᱠᱷᱮᱞᱳᱰ ᱟᱠᱟᱫᱟᱭ",
+  "documented_runs_identical": 2,
+  "documented_back_translation": "back-translations of that output: [('बच्चे खेल के मैदान में खेल रहे हैं', 2)]",
+  "today": "ᱜᱤᱫᱽᱨᱟᱹ ᱠᱚ ᱠᱷᱮᱞᱳᱰ ᱴᱷᱟᱶ ᱨᱮ ᱠᱷᱮᱞᱳᱰ ᱟᱠᱟᱫᱟᱭ ᱾",
+  "today_tgt_ids": [
+   89125,
+   51412,
+   88010,
+   93358,
+   85364,
+   41991,
+   88010,
+   93358,
+   92124,
+   31428,
+   2
+  ],
+  "today_stable": true,
+  "reproduces_documented": true
+ },
+ {
+  "hindi": "आज बारिश हो रही है।",
+  "documented": "ᱛᱮᱦᱮᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ ᱤᱧ",
+  "documented_runs_identical": 4,
+  "documented_back_translation": "back-translations of that output: [('आज मैं', 4)]",
+  "today": "ᱛᱮᱦᱮᱧ ᱫᱟᱜᱡᱩᱠ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ ᱾",
+  "today_tgt_ids": [
+   98109,
+   88706,
+   79698,
+   87838,
+   79018,
+   63364,
+   31428,
+   2
+  ],
+  "today_stable": true,
+  "reproduces_documented": false
+ },
+ {
+  "hindi": "पानी",
+  "documented": "ᱫᱟᱜ",
+  "documented_runs_identical": 10,
+  "documented_back_translation": "back-translations of that output: [('पानी', 10)]",
+  "today": "ᱫᱟᱜ ᱾",
+  "today_tgt_ids": [
+   88706,
+   31428,
+   2
+  ],
+  "today_stable": true,
+  "reproduces_documented": true
+ },
+ {
+  "hindi": "किताब",
+  "documented": "ᱯᱚᱛᱚᱵ",
+  "documented_runs_identical": 10,
+  "documented_back_translation": "back-translations of that output: [('किताब', 7), ('पुस्तक', 3)]",
+  "today": "ᱯᱚᱛᱚᱵ ᱾",
+  "today_tgt_ids": [
+   103129,
+   31428,
+   2
+  ],
+  "today_stable": true,
+  "reproduces_documented": true
+ },
+ {
+  "hindi": "पेड़",
+  "documented": "ᱵᱤᱨ",
+  "documented_runs_identical": 10,
+  "documented_back_translation": "back-translations of that output: [('जंगल', 10)]",
+  "today": "ᱵᱤᱨ ᱾",
+  "today_tgt_ids": [
+   86359,
+   31428,
+   2
+  ],
+  "today_stable": true,
+  "reproduces_documented": true
+ },
+ {
+  "hindi": "घर",
+  "documented": "ᱚᱲᱟᱜ",
+  "documented_runs_identical": 10,
+  "documented_back_translation": "back-translations of that output: [('घर', 10)]",
+  "today": "ᱚᱲᱟᱜ ᱾",
+  "today_tgt_ids": [
+   88532,
+   31428,
+   2
+  ],
+  "today_stable": true,
+  "reproduces_documented": true
+ },
+ {
+  "hindi": "मछली",
+  "documented": "ᱢᱤᱥ",
+  "documented_runs_identical": 10,
+  "documented_back_translation": "back-translations of that output: [('मछली', 10)]",
+  "today": "ᱢᱤᱥ ᱾",
+  "today_tgt_ids": [
+   101740,
+   31428,
+   2
+  ],
+  "today_stable": true,
+  "reproduces_documented": true
+ },
+ {
+  "hindi": "एक",
+  "documented": "ᱢᱤᱫᱴᱟᱝ",
+  "documented_runs_identical": 10,
+  "documented_back_translation": "back-translations of that output: [('एक', 10)]",
+  "today": "ᱢᱤᱫᱴᱟᱝ ᱾",
+  "today_tgt_ids": [
+   64583,
+   31428,
+   2
+  ],
+  "today_stable": true,
+  "reproduces_documented": true
+ }
+]
