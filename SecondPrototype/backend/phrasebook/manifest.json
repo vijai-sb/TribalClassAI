@@ -1,0 +1,682 @@
+[
+  {
+    "category": "GREETING",
+    "source_text": "Good morning students",
+    "source_text_normalized": "good morning students",
+    "source_lang": "en",
+    "santali_text": "ᱥᱮᱪᱮᱫᱤᱭᱟᱹ ᱠᱚ ᱫᱚ ᱟᱹᱰᱤ ᱱᱟᱯᱟᱭ ᱫᱤᱱ ᱾",
+    "audio_file": "good_morning_students.wav"
+  },
+  {
+    "category": "GREETING",
+    "source_text": "Good day, children",
+    "source_text_normalized": "good day, children",
+    "source_lang": "en",
+    "santali_text": "ᱱᱟᱯᱟᱭ ᱫᱤᱱ, ᱜᱤᱫᱽᱨᱟᱹ ᱠᱚ ᱾",
+    "audio_file": "good_day_children.wav"
+  },
+  {
+    "category": "GREETING",
+    "source_text": "Welcome to the class",
+    "source_text_normalized": "welcome to the class",
+    "source_lang": "en",
+    "santali_text": "ᱛᱷᱚᱱᱚᱛ ᱨᱮ ᱟᱢ ᱠᱚ ᱵᱟᱯᱞᱟᱧᱟᱢ ᱾",
+    "audio_file": "welcome_to_the_class.wav"
+  },
+  {
+    "category": "GREETING",
+    "source_text": "How are you today?",
+    "source_text_normalized": "how are you today",
+    "source_lang": "en",
+    "santali_text": "ᱛᱮᱦᱮᱧ ᱟᱢ ᱪᱮᱫ ᱞᱮᱠᱟ?",
+    "audio_file": "how_are_you_today.wav"
+  },
+  {
+    "category": "GREETING",
+    "source_text": "Are you ready to learn?",
+    "source_text_normalized": "are you ready to learn",
+    "source_lang": "en",
+    "santali_text": "ᱟᱢ ᱪᱮᱫ ᱥᱮᱪᱮᱫ ᱞᱟᱹᱜᱤᱫ ᱮ ᱵᱮᱱᱟᱣ ᱟᱠᱟᱱᱟ?",
+    "audio_file": "are_you_ready_to_learn.wav"
+  },
+  {
+    "category": "CLASSROOM INSTRUCTIONS",
+    "source_text": "Take out your books",
+    "source_text_normalized": "take out your books",
+    "source_lang": "en",
+    "santali_text": "ᱟᱢᱟᱜ ᱯᱚᱛᱚᱵ ᱠᱚ ᱦᱟᱛᱟᱣ ᱢᱮ ᱾",
+    "audio_file": "take_out_your_books.wav"
+  },
+  {
+    "category": "CLASSROOM INSTRUCTIONS",
+    "source_text": "Close your books",
+    "source_text_normalized": "close your books",
+    "source_lang": "en",
+    "santali_text": "ᱟᱢᱟᱜ ᱯᱚᱛᱚᱵ ᱠᱚ ᱵᱚᱱᱚᱫᱚᱞ ᱢᱮ ᱾",
+    "audio_file": "close_your_books.wav"
+  },
+  {
+    "category": "CLASSROOM INSTRUCTIONS",
+    "source_text": "Take your notebook",
+    "source_text_normalized": "take your notebook",
+    "source_lang": "en",
+    "santali_text": "ᱟᱢᱟᱜ ᱱᱳᱴᱵᱩᱠ ᱦᱟᱛᱟᱣ ᱢᱮ ᱾",
+    "audio_file": "take_your_notebook.wav"
+  },
+  {
+    "category": "CLASSROOM INSTRUCTIONS",
+    "source_text": "Take your pen",
+    "source_text_normalized": "take your pen",
+    "source_lang": "en",
+    "santali_text": "ᱟᱢᱟᱜ ᱯᱮᱱ ᱦᱟᱛᱟᱣ ᱢᱮ ᱾",
+    "audio_file": "take_your_pen.wav"
+  },
+  {
+    "category": "CLASSROOM INSTRUCTIONS",
+    "source_text": "Listen carefully",
+    "source_text_normalized": "listen carefully",
+    "source_lang": "en",
+    "santali_text": "ᱥᱟᱧᱪᱟᱣ ᱛᱮ ᱵᱟᱰᱟᱭ ᱢᱮ ᱾",
+    "audio_file": "listen_carefully.wav"
+  },
+  {
+    "category": "CLASSROOM INSTRUCTIONS",
+    "source_text": "Look at the board",
+    "source_text_normalized": "look at the board",
+    "source_lang": "en",
+    "santali_text": "ᱵᱳᱨᱰ ᱧᱮᱞ ᱢᱮ ᱾",
+    "audio_file": "look_at_the_board.wav"
+  },
+  {
+    "category": "CLASSROOM INSTRUCTIONS",
+    "source_text": "Come to the board",
+    "source_text_normalized": "come to the board",
+    "source_lang": "en",
+    "santali_text": "ᱵᱳᱨᱰ ᱨᱮ ᱦᱮᱡ ᱢᱮ ᱾",
+    "audio_file": "come_to_the_board.wav"
+  },
+  {
+    "category": "CLASSROOM INSTRUCTIONS",
+    "source_text": "Sit down",
+    "source_text_normalized": "sit down",
+    "source_lang": "en",
+    "santali_text": "ᱵᱮᱶᱦᱟᱨ ᱢᱮ ᱾",
+    "audio_file": "sit_down.wav"
+  },
+  {
+    "category": "CLASSROOM INSTRUCTIONS",
+    "source_text": "Stand up",
+    "source_text_normalized": "stand up",
+    "source_lang": "en",
+    "santali_text": "ᱫᱟᱯᱨᱟᱢ ᱢᱮ ᱾",
+    "audio_file": "stand_up.wav"
+  },
+  {
+    "category": "CLASSROOM INSTRUCTIONS",
+    "source_text": "Be quiet",
+    "source_text_normalized": "be quiet",
+    "source_lang": "en",
+    "santali_text": "ᱱᱤᱴ ᱢᱮ ᱾",
+    "audio_file": "be_quiet.wav"
+  },
+  {
+    "category": "CLASSROOM INSTRUCTIONS",
+    "source_text": "Raise your hand",
+    "source_text_normalized": "raise your hand",
+    "source_lang": "en",
+    "santali_text": "ᱛᱤ ᱪᱮᱛᱟᱱ ᱢᱮ ᱾",
+    "audio_file": "raise_your_hand.wav"
+  },
+  {
+    "category": "CLASSROOM INSTRUCTIONS",
+    "source_text": "Wait a moment",
+    "source_text_normalized": "wait a moment",
+    "source_lang": "en",
+    "santali_text": "ᱠᱤᱪᱷᱩᱠ ᱚᱠᱛᱚ ᱞᱟᱹᱜᱤᱫ ᱮ ᱴᱮᱠᱟᱣ ᱢᱮ ᱾",
+    "audio_file": "wait_a_moment.wav"
+  },
+  {
+    "category": "CLASSROOM INSTRUCTIONS",
+    "source_text": "Repeat after me",
+    "source_text_normalized": "repeat after me",
+    "source_lang": "en",
+    "santali_text": "ᱤᱧ ᱛᱟᱭᱚᱢ ᱟᱨᱦᱚᱸ ᱢᱮ ᱾",
+    "audio_file": "repeat_after_me.wav"
+  },
+  {
+    "category": "CLASSROOM INSTRUCTIONS",
+    "source_text": "Speak slowly",
+    "source_text_normalized": "speak slowly",
+    "source_lang": "en",
+    "santali_text": "ᱞᱚᱜᱚᱱ ᱠᱟᱛᱷᱟ ᱞᱟᱹᱭ ᱢᱮ ᱾",
+    "audio_file": "speak_slowly.wav"
+  },
+  {
+    "category": "CLASSROOM INSTRUCTIONS",
+    "source_text": "Read this",
+    "source_text_normalized": "read this",
+    "source_lang": "en",
+    "santali_text": "ᱱᱚᱶᱟ ᱫᱚ ᱯᱟᱲᱦᱟᱣ ᱢᱮ ᱾",
+    "audio_file": "read_this.wav"
+  },
+  {
+    "category": "CLASSROOM INSTRUCTIONS",
+    "source_text": "Write this down",
+    "source_text_normalized": "write this down",
+    "source_lang": "en",
+    "santali_text": "ᱱᱚᱶᱟ ᱚᱞ ᱢᱮ ᱾",
+    "audio_file": "write_this_down.wav"
+  },
+  {
+    "category": "CLASSROOM INSTRUCTIONS",
+    "source_text": "Copy this into your notebook",
+    "source_text_normalized": "copy this into your notebook",
+    "source_lang": "en",
+    "santali_text": "ᱱᱚᱶᱟ ᱫᱚ ᱟᱢᱟᱜ ᱱᱳᱴᱵᱩᱠ ᱨᱮ ᱠᱚᱯᱤ ᱢᱮ ᱾",
+    "audio_file": "copy_this_into_your_notebook.wav"
+  },
+  {
+    "category": "QUESTIONS",
+    "source_text": "Do you understand?",
+    "source_text_normalized": "do you understand",
+    "source_lang": "en",
+    "santali_text": "ᱟᱢ ᱪᱮᱫ ᱵᱟᱰᱟᱭ ᱧᱟᱢ ᱟᱠᱟᱫᱟ?",
+    "audio_file": "do_you_understand.wav"
+  },
+  {
+    "category": "QUESTIONS",
+    "source_text": "Is everything clear?",
+    "source_text_normalized": "is everything clear",
+    "source_lang": "en",
+    "santali_text": "ᱥᱟᱱᱟᱢ ᱜᱮ ᱪᱮᱫ ᱥᱚᱨᱟᱥᱚᱨᱤ?",
+    "audio_file": "is_everything_clear.wav"
+  },
+  {
+    "category": "QUESTIONS",
+    "source_text": "Who knows the answer?",
+    "source_text_normalized": "who knows the answer",
+    "source_lang": "en",
+    "santali_text": "ᱱᱚᱶᱟ ᱨᱮᱱᱟᱜ ᱩᱛᱛᱚᱨ ᱫᱚ ᱪᱮᱫ ᱠᱚ ᱵᱟᱰᱟᱭ ᱟᱠᱟᱱᱟ?",
+    "audio_file": "who_knows_the_answer.wav"
+  },
+  {
+    "category": "QUESTIONS",
+    "source_text": "What is the answer?",
+    "source_text_normalized": "what is the answer",
+    "source_lang": "en",
+    "santali_text": "ᱱᱚᱶᱟ ᱨᱮᱱᱟᱜ ᱩᱛᱛᱚᱨ ᱪᱮᱫ?",
+    "audio_file": "what_is_the_answer.wav"
+  },
+  {
+    "category": "QUESTIONS",
+    "source_text": "Try to answer this",
+    "source_text_normalized": "try to answer this",
+    "source_lang": "en",
+    "santali_text": "ᱱᱚᱶᱟ ᱨᱮᱭᱟᱜ ᱩᱛᱛᱚᱨ ᱮᱢ ᱨᱮᱭᱟᱜ ᱨᱤᱠᱟᱹᱭ ᱢᱮ ᱾",
+    "audio_file": "try_to_answer_this.wav"
+  },
+  {
+    "category": "QUESTIONS",
+    "source_text": "Give an example",
+    "source_text_normalized": "give an example",
+    "source_lang": "en",
+    "santali_text": "ᱢᱤᱫᱴᱟᱝ ᱫᱟᱹᱭᱠᱟᱹ ᱮᱢ ᱢᱮ ᱾",
+    "audio_file": "give_an_example.wav"
+  },
+  {
+    "category": "QUESTIONS",
+    "source_text": "What did we learn today?",
+    "source_text_normalized": "what did we learn today",
+    "source_lang": "en",
+    "santali_text": "ᱛᱮᱦᱮᱧ ᱟᱢ ᱪᱮᱫ ᱥᱮᱪ ᱧᱟᱢ ᱟᱠᱟᱫᱟ?",
+    "audio_file": "what_did_we_learn_today.wav"
+  },
+  {
+    "category": "TEACHING",
+    "source_text": "Today we will learn something new",
+    "source_text_normalized": "today we will learn something new",
+    "source_lang": "en",
+    "santali_text": "ᱛᱮᱦᱮᱧ ᱟᱢ ᱠᱤᱪᱷᱩ ᱱᱟᱶᱟᱱ ᱵᱟᱰᱟᱭ ᱧᱟᱢᱼᱟ ᱾",
+    "audio_file": "today_we_will_learn_something_new.wav"
+  },
+  {
+    "category": "TEACHING",
+    "source_text": "Let us start the lesson",
+    "source_text_normalized": "let us start the lesson",
+    "source_lang": "en",
+    "santali_text": "ᱟᱭᱢᱟᱜᱟᱱ ᱥᱮᱪᱮᱫ ᱮᱛᱚᱦᱚᱵ ᱢᱮ ᱾",
+    "audio_file": "let_us_start_the_lesson.wav"
+  },
+  {
+    "category": "TEACHING",
+    "source_text": "Pay attention",
+    "source_text_normalized": "pay attention",
+    "source_lang": "en",
+    "santali_text": "ᱢᱚᱱᱮ ᱫᱚᱦᱚ ᱢᱮ ᱾",
+    "audio_file": "pay_attention.wav"
+  },
+  {
+    "category": "TEACHING",
+    "source_text": "Read this sentence",
+    "source_text_normalized": "read this sentence",
+    "source_lang": "en",
+    "santali_text": "ᱱᱚᱶᱟ ᱥᱟᱵᱟᱫ ᱫᱚ ᱯᱟᱲᱦᱟᱣ ᱢᱮ ᱾",
+    "audio_file": "read_this_sentence.wav"
+  },
+  {
+    "category": "TEACHING",
+    "source_text": "Read the next paragraph",
+    "source_text_normalized": "read the next paragraph",
+    "source_lang": "en",
+    "santali_text": "ᱛᱟᱭᱚᱢ ᱫᱟᱨᱟᱢ ᱯᱮᱨᱟᱯᱷᱟᱨ ᱫᱚ ᱯᱟᱲᱦᱟᱣ ᱢᱮ ᱾",
+    "audio_file": "read_the_next_paragraph.wav"
+  },
+  {
+    "category": "TEACHING",
+    "source_text": "Write the answer",
+    "source_text_normalized": "write the answer",
+    "source_lang": "en",
+    "santali_text": "ᱩᱛᱛᱚᱨ ᱚᱞ ᱢᱮ ᱾",
+    "audio_file": "write_the_answer.wav"
+  },
+  {
+    "category": "TEACHING",
+    "source_text": "Solve this problem",
+    "source_text_normalized": "solve this problem",
+    "source_lang": "en",
+    "santali_text": "ᱱᱚᱶᱟ ᱞᱟᱹᱞᱤᱥ ᱫᱚ ᱵᱚᱱᱚᱫᱚᱞ ᱢᱮ ᱾",
+    "audio_file": "solve_this_problem.wav"
+  },
+  {
+    "category": "TEACHING",
+    "source_text": "Work with your partner",
+    "source_text_normalized": "work with your partner",
+    "source_lang": "en",
+    "santali_text": "ᱟᱢᱨᱮᱱ ᱜᱟᱛᱮ ᱥᱟᱶᱛᱮ ᱠᱟᱹᱢᱤ ᱢᱮ ᱾",
+    "audio_file": "work_with_your_partner.wav"
+  },
+  {
+    "category": "TEACHING",
+    "source_text": "Discuss this with your group",
+    "source_text_normalized": "discuss this with your group",
+    "source_lang": "en",
+    "santali_text": "ᱟᱢᱟᱜ ᱜᱟᱫᱮᱞ ᱥᱟᱞᱟᱜ ᱱᱚᱶᱟ ᱤᱫᱤ ᱠᱟᱛᱮ ᱵᱚᱨᱱᱚᱱ ᱢᱮ ᱾",
+    "audio_file": "discuss_this_with_your_group.wav"
+  },
+  {
+    "category": "TEACHING",
+    "source_text": "Check your answer",
+    "source_text_normalized": "check your answer",
+    "source_lang": "en",
+    "santali_text": "ᱟᱢᱟᱜ ᱩᱛᱛᱚᱨ ᱵᱤᱰᱟᱹᱣ ᱢᱮ ᱾",
+    "audio_file": "check_your_answer.wav"
+  },
+  {
+    "category": "ENCOURAGEMENT",
+    "source_text": "Very good",
+    "source_text_normalized": "very good",
+    "source_lang": "en",
+    "santali_text": "ᱟᱹᱰᱤ ᱱᱟᱯᱟᱭ ᱾",
+    "audio_file": "very_good.wav"
+  },
+  {
+    "category": "ENCOURAGEMENT",
+    "source_text": "Good job",
+    "source_text_normalized": "good job",
+    "source_lang": "en",
+    "santali_text": "ᱱᱟᱯᱟᱭ ᱠᱟᱹᱢᱤ ᱾",
+    "audio_file": "good_job.wav"
+  },
+  {
+    "category": "ENCOURAGEMENT",
+    "source_text": "Well done",
+    "source_text_normalized": "well done",
+    "source_lang": "en",
+    "santali_text": "ᱱᱟᱯᱟᱭ ᱠᱚᱨᱟᱣ ᱟᱠᱟᱱᱟ ᱾",
+    "audio_file": "well_done.wav"
+  },
+  {
+    "category": "ENCOURAGEMENT",
+    "source_text": "Excellent",
+    "source_text_normalized": "excellent",
+    "source_lang": "en",
+    "santali_text": "ᱟᱹᱰᱤ ᱱᱟᱯᱟᱭ ᱾",
+    "audio_file": "excellent.wav"
+  },
+  {
+    "category": "ENCOURAGEMENT",
+    "source_text": "Try again",
+    "source_text_normalized": "try again",
+    "source_lang": "en",
+    "santali_text": "ᱟᱨᱦᱚᱸ ᱨᱤᱠᱟᱹᱭ ᱢᱮ ᱾",
+    "audio_file": "try_again.wav"
+  },
+  {
+    "category": "ENCOURAGEMENT",
+    "source_text": "Don't worry",
+    "source_text_normalized": "don't worry",
+    "source_lang": "en",
+    "santali_text": "ᱠᱟᱶᱰᱤ ᱵᱟᱝ ᱢᱮ ᱾",
+    "audio_file": "don_t_worry.wav"
+  },
+  {
+    "category": "ENCOURAGEMENT",
+    "source_text": "Keep trying",
+    "source_text_normalized": "keep trying",
+    "source_lang": "en",
+    "santali_text": "ᱨᱤᱠᱟᱹᱭ ᱢᱮ ᱾",
+    "audio_file": "keep_trying.wav"
+  },
+  {
+    "category": "ENDING",
+    "source_text": "Time is up",
+    "source_text_normalized": "time is up",
+    "source_lang": "en",
+    "santali_text": "ᱚᱠᱛᱚ ᱢᱩᱪᱟᱹᱫ ᱟᱠᱟᱱᱟ ᱾",
+    "audio_file": "time_is_up.wav"
+  },
+  {
+    "category": "ENDING",
+    "source_text": "Finish your work",
+    "source_text_normalized": "finish your work",
+    "source_lang": "en",
+    "santali_text": "ᱟᱢᱟᱜ ᱠᱟᱹᱢᱤ ᱢᱩᱪᱟᱹᱫ ᱢᱮ ᱾",
+    "audio_file": "finish_your_work.wav"
+  },
+  {
+    "category": "ENDING",
+    "source_text": "Submit your work",
+    "source_text_normalized": "submit your work",
+    "source_lang": "en",
+    "santali_text": "ᱟᱢᱟᱜ ᱠᱟᱹᱢᱤ ᱮᱢ ᱢᱮ ᱾",
+    "audio_file": "submit_your_work.wav"
+  },
+  {
+    "category": "ENDING",
+    "source_text": "Goodbye, see you soon",
+    "source_text_normalized": "goodbye, see you soon",
+    "source_lang": "en",
+    "santali_text": "ᱵᱟᱹᱛᱤᱞ ᱢᱮ, ᱟᱹᱰᱤ ᱞᱚᱜᱚᱱ ᱟᱢ ᱥᱟᱶ ᱧᱮᱞ ᱢᱮ ᱾",
+    "audio_file": "goodbye_see_you_soon.wav"
+  },
+  {
+    "category": "ENDING",
+    "source_text": "Thank you",
+    "source_text_normalized": "thank you",
+    "source_lang": "en",
+    "santali_text": "ᱟᱢ ᱫᱚ ᱥᱟᱨᱦᱟᱶ ᱢᱮ ᱾",
+    "audio_file": "thank_you.wav"
+  },
+  {
+    "category": "ENDING",
+    "source_text": "Have a nice day",
+    "source_text_normalized": "have a nice day",
+    "source_lang": "en",
+    "santali_text": "ᱟᱢᱟᱜ ᱫᱤᱱ ᱫᱚ ᱱᱟᱯᱟᱭ ᱦᱚᱭᱩᱜ ᱟ ᱾",
+    "audio_file": "have_a_nice_day.wav"
+  },
+  {
+    "category": "ENCOURAGEMENT",
+    "source_text": "Give the answer",
+    "source_text_normalized": "give the answer",
+    "source_lang": "en",
+    "santali_text": "ᱩᱛᱛᱚᱨ ᱮᱢ ᱢᱮ ᱾",
+    "audio_file": "give_the_answer.wav"
+  },
+  {
+    "category": "GREETING",
+    "source_text": "सुप्रभात बच्चों।",
+    "source_text_normalized": "सुप्रभात बच्चों।",
+    "source_lang": "hi",
+    "santali_text": "ᱱᱟᱯᱟᱭ ꯑꯌꯨꯛ ᱨᱮᱱ ᱜᱤᱫᱽᱨᱟᱹᱠᱚ ᱾",
+    "audio_file": "phrase_8ef1eec87451.wav"
+  },
+  {
+    "category": "GREETING",
+    "source_text": "नमस्ते बच्चों।",
+    "source_text_normalized": "नमस्ते बच्चों।",
+    "source_lang": "hi",
+    "santali_text": "ᱦᱚᱞᱮ ᱜᱤᱫᱽᱨᱟᱹᱠᱚ ᱾",
+    "audio_file": "phrase_380d72bd600a.wav"
+  },
+  {
+    "category": "GREETING",
+    "source_text": "आज आप कैसे हैं?",
+    "source_text_normalized": "आज आप कैसे हैं",
+    "source_lang": "hi",
+    "santali_text": "ᱛᱮᱦᱮᱧ ᱟᱢ ᱪᱮᱫ ᱞᱮᱠᱟ ᱠᱟᱱᱟ?",
+    "audio_file": "phrase_ca8bee9a8091.wav"
+  },
+  {
+    "category": "GREETING",
+    "source_text": "क्या आप सीखने के लिए तैयार हैं?",
+    "source_text_normalized": "क्या आप सीखने के लिए तैयार हैं",
+    "source_lang": "hi",
+    "santali_text": "ᱟᱢ ᱪᱮᱫ ᱥᱮᱪ ᱞᱟᱹᱜᱤᱫ ᱮ ᱵᱮᱱᱟᱣ ᱟᱠᱟᱱᱟ?",
+    "audio_file": "phrase_e7ed71fdb4ce.wav"
+  },
+  {
+    "category": "CLASSROOM MANAGEMENT",
+    "source_text": "कृपया बैठ जाइए।",
+    "source_text_normalized": "कृपया बैठ जाइए।",
+    "source_lang": "hi",
+    "santali_text": "ᱫᱟᱭᱟ ᱠᱟᱛᱮ ᱥᱮᱱ ᱢᱮ ᱾",
+    "audio_file": "phrase_d95472099706.wav"
+  },
+  {
+    "category": "CLASSROOM MANAGEMENT",
+    "source_text": "खड़े हो जाइए।",
+    "source_text_normalized": "खड़े हो जाइए।",
+    "source_lang": "hi",
+    "santali_text": "ᱛᱷᱟᱯᱚᱱ ᱢᱮ ᱾",
+    "audio_file": "phrase_d4c65531cc13.wav"
+  },
+  {
+    "category": "CLASSROOM MANAGEMENT",
+    "source_text": "ध्यान से सुनिए।",
+    "source_text_normalized": "ध्यान से सुनिए।",
+    "source_lang": "hi",
+    "santali_text": "ᱟᱹᱰᱤ ᱱᱟᱯᱟᱭ ᱛᱮ ᱵᱟᱰᱟᱭ ᱢᱮ ᱾",
+    "audio_file": "phrase_68ece093a095.wav"
+  },
+  {
+    "category": "CLASSROOM MANAGEMENT",
+    "source_text": "शांत रहिए।",
+    "source_text_normalized": "शांत रहिए।",
+    "source_lang": "hi",
+    "santali_text": "ᱥᱩᱛᱚᱱ ᱢᱮ ᱾",
+    "audio_file": "phrase_adba2132fe84.wav"
+  },
+  {
+    "category": "CLASSROOM MANAGEMENT",
+    "source_text": "मेरी बात ध्यान से सुनिए।",
+    "source_text_normalized": "मेरी बात ध्यान से सुनिए।",
+    "source_lang": "hi",
+    "santali_text": "ᱤᱧᱟᱹᱜ ᱠᱟᱛᱷᱟ ᱱᱟᱯᱟᱭ ᱛᱮ ᱵᱟᱰᱟᱭ ᱢᱮ ᱾",
+    "audio_file": "phrase_0ede9c6965bf.wav"
+  },
+  {
+    "category": "LEARNING MATERIALS",
+    "source_text": "अपनी किताबें निकालिए।",
+    "source_text_normalized": "अपनी किताबें निकालिए।",
+    "source_lang": "hi",
+    "santali_text": "ᱟᱢᱟᱜ ᱯᱚᱛᱚᱵ ᱠᱚ ᱦᱟᱛᱟᱣ ᱢᱮ ᱾",
+    "audio_file": "phrase_e3e744122f00.wav"
+  },
+  {
+    "category": "LEARNING MATERIALS",
+    "source_text": "अपनी किताब बंद कीजिए।",
+    "source_text_normalized": "अपनी किताब बंद कीजिए।",
+    "source_lang": "hi",
+    "santali_text": "ᱟᱢᱟᱜ ᱯᱚᱛᱚᱵ ᱫᱚ ᱵᱚᱱᱚᱫᱚᱞ ᱢᱮ ᱾",
+    "audio_file": "phrase_4452152d7709.wav"
+  },
+  {
+    "category": "LEARNING MATERIALS",
+    "source_text": "अपनी कॉपी निकालिए।",
+    "source_text_normalized": "अपनी कॉपी निकालिए।",
+    "source_lang": "hi",
+    "santali_text": "ᱟᱢᱟᱜ ᱠᱚᱯᱤ ᱦᱟᱛᱟᱣ ᱢᱮ ᱾",
+    "audio_file": "phrase_dea64348ed09.wav"
+  },
+  {
+    "category": "LEARNING MATERIALS",
+    "source_text": "अपना पेन निकालिए।",
+    "source_text_normalized": "अपना पेन निकालिए।",
+    "source_lang": "hi",
+    "santali_text": "ᱟᱢᱟᱜ ᱯᱮᱱ ᱫᱚ ᱦᱟᱛᱟᱣ ᱢᱮ ᱾",
+    "audio_file": "phrase_d7d996b42bd9.wav"
+  },
+  {
+    "category": "LEARNING MATERIALS",
+    "source_text": "बोर्ड की ओर देखिए।",
+    "source_text_normalized": "बोर्ड की ओर देखिए।",
+    "source_lang": "hi",
+    "santali_text": "ᱵᱳᱨᱰ ᱨᱮ ᱧᱮᱞ ᱢᱮ ᱾",
+    "audio_file": "phrase_8a98221ac2d1.wav"
+  },
+  {
+    "category": "TEACHING INSTRUCTIONS",
+    "source_text": "आज हम कुछ नया सीखेंगे।",
+    "source_text_normalized": "आज हम कुछ नया सीखेंगे।",
+    "source_lang": "hi",
+    "santali_text": "ᱛᱮᱦᱮᱧ ᱟᱢ ᱠᱤᱪᱷᱩ ᱱᱟᱶᱟ ᱥᱮᱪ ᱢᱮ ᱾",
+    "audio_file": "phrase_a129253cb959.wav"
+  },
+  {
+    "category": "TEACHING INSTRUCTIONS",
+    "source_text": "आज का पाठ शुरू करते हैं।",
+    "source_text_normalized": "आज का पाठ शुरू करते हैं।",
+    "source_lang": "hi",
+    "santali_text": "ᱟᱭᱢᱟᱜᱟᱱ ᱛᱮᱦᱮᱧ ᱨᱮᱭᱟᱜ ᱥᱮᱪᱮᱫ ᱮᱛᱚᱦᱚᱵ ᱢᱮ ᱾",
+    "audio_file": "phrase_8a8c81d849a2.wav"
+  },
+  {
+    "category": "TEACHING INSTRUCTIONS",
+    "source_text": "बोर्ड पर देखिए।",
+    "source_text_normalized": "बोर्ड पर देखिए।",
+    "source_lang": "hi",
+    "santali_text": "ᱵᱳᱨᱰ ᱨᱮ ᱧᱮᱞ ᱢᱮ ᱾",
+    "audio_file": "phrase_4786d90e5fc2.wav"
+  },
+  {
+    "category": "TEACHING INSTRUCTIONS",
+    "source_text": "मेरे बाद दोहराइए।",
+    "source_text_normalized": "मेरे बाद दोहराइए।",
+    "source_lang": "hi",
+    "santali_text": "ᱤᱧ ᱛᱟᱭᱚᱢᱛᱮ ᱵᱟᱨᱮᱛᱮ ᱞᱟᱹᱭ ᱢᱮ ᱾",
+    "audio_file": "phrase_1683ace360e8.wav"
+  },
+  {
+    "category": "TEACHING INSTRUCTIONS",
+    "source_text": "इसे पढ़िए।",
+    "source_text_normalized": "इसे पढ़िए।",
+    "source_lang": "hi",
+    "santali_text": "ᱱᱚᱶᱟ ᱫᱚ ᱯᱟᱲᱦᱟᱣ ᱢᱮ ᱾",
+    "audio_file": "phrase_71a8718b50e7.wav"
+  },
+  {
+    "category": "TEACHING INSTRUCTIONS",
+    "source_text": "इसे लिखिए।",
+    "source_text_normalized": "इसे लिखिए।",
+    "source_lang": "hi",
+    "santali_text": "ᱱᱚᱶᱟ ᱚᱞ ᱢᱮ ᱾",
+    "audio_file": "phrase_4732c2b9f4a3.wav"
+  },
+  {
+    "category": "TEACHING INSTRUCTIONS",
+    "source_text": "इसका उत्तर दीजिए।",
+    "source_text_normalized": "इसका उत्तर दीजिए।",
+    "source_lang": "hi",
+    "santali_text": "ᱩᱛᱛᱚᱨ ᱮᱢ ᱢᱮ ᱾",
+    "audio_file": "phrase_87948c9fbde9.wav"
+  },
+  {
+    "category": "QUESTIONS",
+    "source_text": "क्या आपको समझ आया?",
+    "source_text_normalized": "क्या आपको समझ आया",
+    "source_lang": "hi",
+    "santali_text": "ᱟᱢ ᱪᱮᱫ ᱵᱟᱰᱟᱭ ᱧᱟᱢ ᱟᱠᱟᱫᱟ?",
+    "audio_file": "phrase_2fa2a7984183.wav"
+  },
+  {
+    "category": "QUESTIONS",
+    "source_text": "क्या आप समझ गए?",
+    "source_text_normalized": "क्या आप समझ गए",
+    "source_lang": "hi",
+    "santali_text": "ᱟᱢ ᱪᱮᱫ ᱵᱟᱰᱟᱭ ᱧᱟᱢ ᱟᱠᱟᱫᱟ?",
+    "audio_file": "phrase_5069bfba0c32.wav"
+  },
+  {
+    "category": "QUESTIONS",
+    "source_text": "क्या किसी को कोई सवाल है?",
+    "source_text_normalized": "क्या किसी को कोई सवाल है",
+    "source_lang": "hi",
+    "santali_text": "ᱡᱟᱦᱟᱸᱭ ᱟᱜ ᱪᱮᱫ ᱡᱟᱦᱟᱱ ᱯᱚᱨᱤᱢᱟᱱ ᱢᱮᱱᱟᱜᱼᱟ?",
+    "audio_file": "phrase_1828bef242ce.wav"
+  },
+  {
+    "category": "QUESTIONS",
+    "source_text": "क्या आप इसका उत्तर दे सकते हैं?",
+    "source_text_normalized": "क्या आप इसका उत्तर दे सकते हैं",
+    "source_lang": "hi",
+    "santali_text": "ᱟᱢ ᱠᱤ ᱱᱚᱶᱟ ᱨᱮᱭᱟᱜ ᱩᱛᱛᱚᱨ ᱮᱢ ᱮᱢ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ?",
+    "audio_file": "phrase_591576b0b815.wav"
+  },
+  {
+    "category": "ENCOURAGEMENT",
+    "source_text": "बहुत अच्छा।",
+    "source_text_normalized": "बहुत अच्छा।",
+    "source_lang": "hi",
+    "santali_text": "ᱟᱹᱰᱤ ᱱᱟᱯᱟᱭ ᱾",
+    "audio_file": "phrase_c6d8376d0a8c.wav"
+  },
+  {
+    "category": "ENCOURAGEMENT",
+    "source_text": "अच्छा प्रयास।",
+    "source_text_normalized": "अच्छा प्रयास।",
+    "source_lang": "hi",
+    "santali_text": "ᱢᱤᱫᱴᱟᱝ ᱱᱟᱯᱟᱭ ᱨᱤᱠᱟᱹ ᱾",
+    "audio_file": "phrase_a823bccb9360.wav"
+  },
+  {
+    "category": "ENCOURAGEMENT",
+    "source_text": "फिर से कोशिश कीजिए।",
+    "source_text_normalized": "फिर से कोशिश कीजिए।",
+    "source_lang": "hi",
+    "santali_text": "ᱟᱨᱦᱚᱸ ᱵᱤᱰᱟᱹᱣ ᱢᱮ ᱾",
+    "audio_file": "phrase_05ad39caefc4.wav"
+  },
+  {
+    "category": "ENCOURAGEMENT",
+    "source_text": "शाबाश।",
+    "source_text_normalized": "शाबाश।",
+    "source_lang": "hi",
+    "santali_text": "ᱥᱟᱵᱟᱥ ᱾",
+    "audio_file": "phrase_1810d500ff1c.wav"
+  },
+  {
+    "category": "CLASS CLOSING",
+    "source_text": "आज के लिए इतना ही।",
+    "source_text_normalized": "आज के लिए इतना ही।",
+    "source_lang": "hi",
+    "santali_text": "ᱛᱮᱦᱮᱧ ᱞᱟᱹᱜᱤᱫ ᱱᱚᱶᱟ ᱜᱮ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ ᱾",
+    "audio_file": "phrase_9c4b47b9ed69.wav"
+  },
+  {
+    "category": "CLASS CLOSING",
+    "source_text": "धन्यवाद बच्चों।",
+    "source_text_normalized": "धन्यवाद बच्चों।",
+    "source_lang": "hi",
+    "santali_text": "ᱜᱤᱫᱽᱨᱟᱹ ᱠᱚ ᱞᱟᱹᱜᱤᱫ ᱛᱮ ᱥᱟᱨᱦᱟᱰ ᱾",
+    "audio_file": "phrase_fe9d9d1d868e.wav"
+  },
+  {
+    "category": "CLASS CLOSING",
+    "source_text": "कल मिलते हैं।",
+    "source_text_normalized": "कल मिलते हैं।",
+    "source_lang": "hi",
+    "santali_text": "ᱤᱧᱟᱹᱜ ᱦᱚᱭᱦᱩᱫᱮ ᱧᱮᱞᱧᱟᱢᱚᱜᱼᱟ ᱾",
+    "audio_file": "phrase_52751349e1a6.wav"
+  }
+]

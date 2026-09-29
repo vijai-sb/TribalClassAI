@@ -1,0 +1,342 @@
+:root {
+  color-scheme: light;
+  --bg: #f6f7f4;
+  --card: #ffffff;
+  --ink: #1c2321;
+  --muted: #6b7570;
+  --accent: #b5651d;
+  --accent-dark: #8a4c15;
+  --border: #e2e5df;
+  --error-bg: #fdecea;
+  --error-ink: #7a1f16;
+  --success: #2f7d4f;
+  --success-bg: #e7f5ec;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+}
+
+main {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 32px 20px 64px;
+}
+
+.app-header {
+  text-align: center;
+}
+
+h1 {
+  margin: 0 0 4px;
+  font-size: 1.6rem;
+}
+
+.subtitle {
+  margin: 0 0 20px;
+  color: var(--muted);
+}
+
+.mode-switch {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 28px;
+}
+
+.mode-tab {
+  border: 1px solid var(--border);
+  background: var(--card);
+  color: var(--muted);
+  padding: 10px 18px;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.mode-tab.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.demo-intro {
+  color: var(--muted);
+  font-size: 0.9rem;
+  text-align: center;
+  margin: 0 0 18px;
+}
+
+.phrase-search {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+  background: var(--card);
+  color: var(--ink);
+}
+
+.phrase-category {
+  margin-bottom: 22px;
+}
+
+/* Explicit display rules elsewhere on this page (e.g. .recording-indicator)
+   have silently overridden the [hidden] attribute's default display:none
+   before -- guard every hideable container the same way. */
+.phrase-category[hidden] {
+  display: none;
+}
+
+.phrase-category-title {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  margin: 0 0 10px;
+}
+
+.phrase-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.phrase-btn {
+  border: 1px solid var(--border);
+  background: var(--card);
+  color: var(--ink);
+  padding: 12px 10px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.phrase-btn:hover {
+  background: var(--success-bg);
+  border-color: var(--success);
+}
+
+.phrase-loading {
+  color: var(--muted);
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
+.lang-select-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 20px;
+  font-size: 0.92rem;
+  color: var(--ink);
+}
+
+.lang-select-label {
+  color: var(--muted);
+}
+
+.lang-select-row label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.demo-lang-select-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 20px;
+  font-size: 0.92rem;
+  color: var(--ink);
+}
+
+.demo-lang-select-label {
+  color: var(--muted);
+}
+
+.demo-lang-select-row label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.talk-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.talk-btn {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: none;
+  background: var(--accent);
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 6px 18px rgba(181, 101, 29, 0.35);
+  user-select: none;
+  touch-action: none;
+  transition: transform 0.1s ease, background 0.15s ease;
+}
+
+.talk-btn:active,
+.talk-btn.recording {
+  background: var(--accent-dark);
+  transform: scale(0.96);
+}
+
+.talk-btn:disabled {
+  background: #b8bcb5;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.status {
+  color: var(--muted);
+  font-size: 0.95rem;
+  min-height: 1.2em;
+  text-align: center;
+}
+
+.recording-indicator {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--error-ink);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.recording-indicator[hidden] {
+  display: none;
+}
+
+.rec-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #d33;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
+.panel {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 16px 18px;
+  margin-bottom: 18px;
+}
+
+.panel h2 {
+  margin: 0 0 10px;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.badge {
+  background: var(--success-bg);
+  color: var(--success);
+  border-radius: 999px;
+  padding: 2px 10px;
+  font-size: 0.7rem;
+  text-transform: none;
+  letter-spacing: normal;
+  font-weight: 700;
+}
+
+.text-box {
+  min-height: 2.4em;
+  font-size: 1.15rem;
+  line-height: 1.5;
+}
+
+.santali-text {
+  font-family: "Noto Sans Ol Chiki", "Segoe UI", sans-serif;
+  font-size: 1.4rem;
+}
+
+.audio-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.play-btn {
+  border: none;
+  background: var(--success);
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.volume-control {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.volume-control input[type="range"] {
+  width: 90px;
+  accent-color: var(--success);
+}
+
+.play-btn:disabled {
+  background: #b8bcb5;
+  cursor: not-allowed;
+}
+
+.audio-status {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.error-box {
+  background: var(--error-bg);
+  color: var(--error-ink);
+  border-radius: 8px;
+  padding: 12px 14px;
+  margin-bottom: 16px;
+}
+
+.timing-box {
+  color: var(--muted);
+  font-size: 0.8rem;
+  text-align: right;
+}

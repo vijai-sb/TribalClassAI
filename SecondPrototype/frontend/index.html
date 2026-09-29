@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Classroom Translator (Hindi/English → Santali)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Ol+Chiki&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <main>
+    <header class="app-header">
+      <h1>Classroom Translator</h1>
+      <p class="subtitle">Teacher speaks Hindi or English &rarr; Santali text + audio</p>
+    </header>
+
+    <nav class="mode-switch" role="tablist">
+      <button id="liveModeTab" class="mode-tab active" role="tab" aria-selected="true">🎙️ Live Mode</button>
+      <button id="demoModeTab" class="mode-tab" role="tab" aria-selected="false">🗂️ Demo Mode</button>
+    </nav>
+
+    <!-- LIVE MODE -->
+    <section id="liveMode" class="mode-panel">
+      <div class="lang-select-row">
+        <span class="lang-select-label">Teacher is speaking:</span>
+        <label><input type="radio" name="sourceLang" value="en" checked /> English</label>
+        <label><input type="radio" name="sourceLang" value="hi" /> Hindi</label>
+      </div>
+
+      <div class="talk-area">
+        <button id="talkBtn" class="talk-btn">Hold to Speak</button>
+        <div id="recordingIndicator" class="recording-indicator" hidden>
+          <span class="rec-dot"></span> Recording...
+        </div>
+        <div id="status" class="status">Idle. Hold the button and speak a Hindi or English sentence.</div>
+      </div>
+
+      <section class="panel">
+        <h2>You said</h2>
+        <div id="sourceText" class="text-box source-text">&mdash;</div>
+      </section>
+
+      <section class="panel">
+        <h2>Santali translation <span id="cacheBadge" class="badge" hidden></span></h2>
+        <div id="santaliText" class="text-box santali-text">&mdash;</div>
+        <div class="audio-row">
+          <button id="playBtn" class="play-btn" disabled>▶ Play audio</button>
+          <label class="volume-control">🔊 <input id="volumeSlider" type="range" min="0" max="100" value="100" /></label>
+          <audio id="santaliAudio" hidden></audio>
+          <span id="audioStatus" class="audio-status"></span>
+        </div>
+      </section>
+
+      <div id="errorBox" class="error-box" hidden></div>
+      <div id="timingBox" class="timing-box"></div>
+    </section>
+
+    <!-- DEMO MODE -->
+    <section id="demoMode" class="mode-panel" hidden>
+      <p class="demo-intro">Click any classroom phrase below to instantly show its Santali translation and play the cached audio &mdash; no microphone needed.</p>
+
+      <div class="demo-lang-select-row">
+        <span class="demo-lang-select-label">Phrase language:</span>
+        <label><input type="radio" name="demoLang" value="en" checked /> English</label>
+        <label><input type="radio" name="demoLang" value="hi" /> Hindi</label>
+      </div>
+
+      <section class="panel">
+        <h2>You said</h2>
+        <div id="demoSourceText" class="text-box source-text">&mdash;</div>
+      </section>
+
+      <section class="panel">
+        <h2>Santali translation</h2>
+        <div id="demoSantaliText" class="text-box santali-text">&mdash;</div>
+        <div class="audio-row">
+          <button id="demoPlayBtn" class="play-btn" disabled>▶ Play audio</button>
+          <label class="volume-control">🔊 <input id="demoVolumeSlider" type="range" min="0" max="100" value="100" /></label>
+          <audio id="demoAudio" hidden></audio>
+        </div>
+      </section>
+
+      <input id="phraseSearch" type="search" class="phrase-search" placeholder="Search phrases…" />
+      <div id="phraseCategories"></div>
+    </section>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

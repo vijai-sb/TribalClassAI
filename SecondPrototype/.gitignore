@@ -1,0 +1,49 @@
+# --- Python ---
+venv/
+**/venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Secrets / credentials ---
+.env
+*.env
+.env.*
+**/huggingface/
+**/.cache/huggingface/
+**/.huggingface/
+hf_token*
+*token*.txt
+*credentials*.json
+*secret*
+
+# --- Model caches / downloaded weights ---
+**/models--*/
+*.safetensors
+*.bin
+*.ckpt
+*.pt
+*.onnx
+models_cache/
+model_cache/
+
+# --- Debug recordings / temp audio ---
+backend/debug_recordings/
+*.tmp
+*.temp
+tmp/
+temp/
+
+# --- Logs ---
+*.log
+backend/server_current.log
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+*.swp
+
+# --- Claude Code local state ---
+.claude/

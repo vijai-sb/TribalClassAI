@@ -1,0 +1,133 @@
+# AUDIT REPORT — Classroom Translator MVP
+
+## A. Current Architecture
+
+**Backend (FastAPI + WebSocket)**
+- **Single-file wiring** in `main.py:73-402` — serves frontend, handles `/ws/translate` WebSocket
+- **Stateless per-connection buffer** (`bytearray`) accumulates raw MediaRecorder chunks
+- **Processing trigger**: frontend sends `{"type":"end", "language","mimeType",...}` on push-to-talk release
+- **Pipeline**: Whisper STT (`stt.py`) → IndicTrans2 translation (`translate.py`) → text sent immediately → cached audio (instant) OR live Parler-TTS (fire-and-forget background task, `main.py:262-270`)
+- **Thread-safety**: `translate.py:47` uses `threading.Lock` around shared `IndicProcessor` queue to prevent cross-thread deadlock (root-caused 2026-09-15)
+
+**Frontend (vanilla JS, served as static files)**
+- **Two modes**: Live Mode (mic push-to-talk) + Demo Mode (click cached phrases)
+- **Live Mode**: `MediaRecorder` → binary WebSocket frames (1s chunks) → wait for socket OPEN before `start()` (race fix at `app.js:228-248`)
+- **Demo Mode**: prefetches all phrase audio as Blobs (5 concurrent) to bypass FastAPI StaticFiles missing Range support
+
+**Models (all CPU, int8 where applicable)**
+| Stage | Model | Config |
+|-------|-------|--------|
+| STT | `faster-whisper` "base" | int8, 4 threads, `language="en"/"hi"` explicit, `vad_filter=False` |
+| Translate | `indictrans2-en-indic-dist-200M` / `indictrans2-indic-indic-dist-320M` | `num_beams=3`, `early_stopping=True` (live), `num_beams=5` (phrasebook) |
+| TTS | `ai4bharat/indic-parler-tts` | loudness-normalized to -14 dBFS RMS, peak capped at -1 dBFS |
+
+**Phrasebook System**
+- `scripts/build_phrasebook.py` generates `phrasebook/manifest.json` + `phrasebook/audio/*.wav` (53 phrases, 6 categories)
+- Matching: normalized source text exact match (`main.py:71-72`, `_normalize` lowercases, strips punctuation, collapses whitespace)
+- Audio served as base64 over WebSocket for Live Mode cached hits; Demo Mode fetches as Blobs
+
+---
+
+## B. Working Features
+
+1. **WebSocket pipeline** — binary chunk streaming, concatenation, end-of-utterance trigger, text result → optional cached/live audio
+2. **STT (Whisper)** — explicit language selection (en/hi), base model ~1.7-2s/utterance, no VAD (push-to-talk)
+3. **Translation (IndicTrans2 distilled)** — en→sat and hi→sat, beam=3 for latency, thread-safe
+4. **Phrasebook cache** — 53 phrases, instant text+audio (~2.4s total text+audio latency)
+5. **Live TTS fallback** — background generation, non-blocking, plays when ready
+6. **Demo Mode UI** — category grid, search, prefetched audio blobs, instant playback
+7. **Debug endpoints** — `/debug/last_recording.{wav,webm}` + browser-side preview to verify mic→Whisper path
+8. **Loudness normalization** — consistent playback volume across cached/live TTS
+9. **Windows-specific fixes applied** — ctranslate2 pin, KMP_DUPLICATE_LIB_OK, VAD disabled, vendored IndicProcessor, torchaudio pin, UTF-8 stdout
+
+---
+
+## C. Problems/Bugs Found
+
+| # | Issue | Location | Severity |
+|---|-------|----------|----------|
+| 1 | **Thread pool exhaustion** — concurrent translate calls can deadlock the shared `IndicProcessor` queue even with the lock, because the lock serializes but the queue is per-processor-instance and `clear()` in `postprocess_batch` can interfere if not perfectly paired. Root-caused but lock may not be sufficient under high concurrency. | `translate.py:31-47`, `indic_processor.py:175,261,268` | High |
+| 2 | **No WebSocket reconnection backoff** — `ensureSocket()` creates new socket on close but no exponential backoff; rapid reconnect attempts possible | `app.js:201-211` | Medium |
+| 3 | **Phrasebook matching is exact-normalized only** — "Sit down please" ≠ "Sit down" (by design per README, but a UX gap) | `main.py:334` | Medium |
+| 4 | **Single global `PHRASEBOOK_BY_NORM` dict** — no reload mechanism; changes to manifest.json require restart | `main.py:67-88` | Low |
+| 5 | **Debug directory/endpoints left in production code** — `DEBUG_DIR`, `/debug/*` endpoints, debug panel in HTML/JS | `main.py:56-60,119-132,148-180`, `app.js:142-183`, `index.html:59-74` | Low |
+| 6 | **No request timeout on WebSocket** — a stuck translation holds the connection indefinitely | `main.py:273-402` | Medium |
+| 7 | **Santali script mixing bug** — IndicTrans2 occasionally outputs Arabic/Meitei/Odia chars instead of Ol Chiki (model limitation, affects live free-form) | Known, documented in README | Medium (model) |
+| 8 | **Live TTS ~30-90s** — architectural CPU limit of autoregressive 0.9B Parler-TTS; no faster self-hosted Santali TTS exists | `tts.py`, README | High (constraint) |
+
+---
+
+## D. Performance Bottlenecks
+
+1. **Live TTS (Parler-TTS)** — 30-90s/sentence on CPU, unavoidable with current model
+2. **Translation warmup** — ~6s PyTorch JIT warmup on first call (mitigated by startup warmup)
+3. **Model loading at startup** — ~30-60s total for all three models (configurable via `PRELOAD_MODELS=false`)
+4. **Demo Mode initial prefetch** — 53 audio files fetched as Blobs (5 concurrent) can stall page on constrained devices
+5. **WebSocket buffer** — no size limit; a malicious/buggy client could OOM the process
+
+---
+
+## E. Missing Requirements (from typical SIH/production expectations)
+
+1. **No authentication/authorization** — anyone with URL can use mic/translation
+2. **No rate limiting** — no protection against abuse
+3. **No HTTPS/WSS** — microphone requires secure context in production (localhost works, LAN IP needs cert)
+4. **No persistent storage** — phrasebook is file-based, no DB
+5. **No metrics/observability** — only debug logging, no Prometheus/health endpoints
+6. **No graceful shutdown** — in-flight WebSocket requests dropped on SIGTERM
+7. **No automated tests** — only manual test scripts
+8. **No CI/CD** — no pipeline for lint/typecheck/test
+9. **Single-instance only** — global model state, phrasebook dict not shared across workers
+10. **No frontend build step** — vanilla JS served directly (fine for MVP, not for caching/optimization)
+
+---
+
+## F. Recommended Implementation Order
+
+| Phase | Focus | Rationale |
+|-------|-------|-----------|
+| **1. Stabilize** | Fix thread-safety in translation (replace shared queue with per-call state), add WS timeouts, remove debug endpoints | Prevents silent hangs under load |
+| **2. Harden** | Add rate limiting, basic auth token, HTTPS setup docs, graceful shutdown | Production readiness |
+| **3. Scale phrasebook** | Add fuzzy/semantic matching (rapidfuzz), hot-reload manifest, Hindi phrases in phrasebook | Improves cache hit rate for Live Mode |
+| **4. Optimize TTS** | Explore ONNX export of Parler-TTS, or accept live TTS as async-only with better UX (progress polling) | Live TTS is the hard latency floor |
+| **5. Observability** | Add `/health`, structured JSON logs, request latency histograms | Debugging in production |
+| **6. Testing/CI** | Pytest for each stage, GitHub Actions for lint+typecheck | Regression prevention |
+
+---
+
+## G. Files Needing Modification per Improvement
+
+| Improvement | Files |
+|-------------|-------|
+| Thread-safe translation | `translate.py` (replace `_placeholder_entity_maps` Queue with per-call context), `indic_processor.py` (make stateless) |
+| WS timeout/reconnection backoff | `main.py` (add `asyncio.wait_for`), `app.js` (exponential backoff in `ensureSocket`) |
+| Phrasebook hot-reload + fuzzy match | `main.py` (add `/api/phrasebook/reload`, use `rapidfuzz`), `app.js` (optional) |
+| Remove debug endpoints | `main.py` (delete DEBUG_DIR, `/debug/*`, `_capture_debug_recording`), `app.js` (remove debug panel), `index.html` (remove debug section) |
+| Rate limiting / auth | `main.py` (add `slowapi` or custom middleware), new `auth.py` |
+| HTTPS/WSS | Deployment docs, `uvicorn` SSL args, reverse proxy config |
+| Health/metrics | `main.py` (add `/health`, `prometheus-client`) |
+| Graceful shutdown | `main.py` (add `on_event("shutdown")`, track active WS) |
+| Tests/CI | New `tests/`, `pytest.ini`, `.github/workflows/ci.yml` |
+
+---
+
+## H. Risks/Regressions to Avoid
+
+1. **Do not change Whisper model size** without re-benchmarking Hindi accuracy — "tiny" has documented non-English regression
+2. **Do not increase translation `num_beams`** to 5 on live path — adds ~1-2s latency with marginal quality gain (beam=1 already caused repetition defect)
+3. **Do not remove `threading.Lock` in translate.py** — the deadlock is real and reproduced; fix by making IndicProcessor stateless instead
+4. **Do not switch to `faster-whisper` VAD** — Silero VAD segfaults on this CPU/OS combo
+5. **Do not upgrade `ctranslate2`** past 4.4.0 — 4.8.2 segfaults on AMD Windows
+6. **Do not change `torchaudio`/`torch` versions independently** — mismatch breaks native extensions
+7. **Do not remove phrasebook slug-based naming** — positional names (`phrase_01.wav`) break on reorder; slugs are stable
+8. **Do not assume FastAPI StaticFiles supports Range requests** — it doesn't; Demo Mode's Blob fetch workaround is required
+
+---
+
+## Summary
+
+**What works well**: End-to-end Live Mode (text ~2.5s, cached audio ~2.5s total), Demo Mode instant playback, Windows compatibility fixes are solid, phrasebook generation is idempotent.
+
+**Critical fixes needed**: Translation thread-safety (replace shared queue), remove debug endpoints, add WS timeouts.
+
+**Hard constraints**: Live TTS will remain ~30-90s; no faster self-hosted Santali TTS exists. Demo Mode + phrasebook is the correct UX pattern for this constraint.
